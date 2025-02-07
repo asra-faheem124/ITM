@@ -1,0 +1,3521 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\Admission Form.pdf",
+      "PackagePath": "staticwebassets\\Admission Form.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\background.png",
+      "PackagePath": "staticwebassets\\assets\\build\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\bigplay.png",
+      "PackagePath": "staticwebassets\\assets\\build\\bigplay.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\bigplay1.png",
+      "PackagePath": "staticwebassets\\assets\\build\\bigplay1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\controls.png",
+      "PackagePath": "staticwebassets\\assets\\build\\controls.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\controls.svg",
+      "PackagePath": "staticwebassets\\assets\\build\\controls.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\echo-hereweare.jpg",
+      "PackagePath": "staticwebassets\\assets\\build\\echo-hereweare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\echo-hereweare.mp4",
+      "PackagePath": "staticwebassets\\assets\\build\\echo-hereweare.mp4"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\jumpforward.png",
+      "PackagePath": "staticwebassets\\assets\\build\\jumpforward.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\build\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\mediaelement-and-player.min.js",
+      "PackagePath": "staticwebassets\\assets\\build\\mediaelement-and-player.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\mediaelementplayer.css",
+      "PackagePath": "staticwebassets\\assets\\build\\mediaelementplayer.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\muteicon.png",
+      "PackagePath": "staticwebassets\\assets\\build\\muteicon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\skipback.png",
+      "PackagePath": "staticwebassets\\assets\\build\\skipback.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\build\\unmuteicon.png",
+      "PackagePath": "staticwebassets\\assets\\build\\unmuteicon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\color-four.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color-four.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\color-three.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color-three.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\color-two.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color-two.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\color.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\prettyphoto.css",
+      "PackagePath": "staticwebassets\\assets\\css\\prettyphoto.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\slick-slider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\404-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\404-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\admin-blog.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\admin-blog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\ask-questoin-bg.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\ask-questoin-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\author-blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\author-blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\author-blog-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\author-blog-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view1-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view1-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view2-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view2-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view2-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view2-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view2-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view3-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view3-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view3-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view3-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view4-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view4-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view4-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view4-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\banner-view4-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-detail.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-medium-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-medium-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-medium-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-medium-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-medium-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-medium-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-medium-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-medium-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-medium-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-medium-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-medium-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-medium-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-medium-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-medium-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-medium-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-medium-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-widget-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-widget-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-widget-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-widget-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blog-widget-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blog-widget-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\blogpost-widget.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\blogpost-widget.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\button-typobg.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\button-typobg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-miniheader.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-miniheader.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img13.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img14.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img15.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-tittle-img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\categories-tittle-img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\conservatory-bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\conservatory-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\conservatory-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\conservatory-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\conservatory-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\conservatory-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\courses-grid-popular-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\courses-grid-popular-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\courses-grid-popular-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\courses-grid-popular-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\courses-grid-popular-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\courses-grid-popular-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\courses-grid-popular-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\courses-grid-popular-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\data-seince-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\data-seince-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-detail-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-detail-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-medium-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-medium-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-medium-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-medium-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-medium-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-medium-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-register-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-register-thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-visa1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-visa1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-visa2.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-visa2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-visa3.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-visa3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-visa4.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\event-visa4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\faq-mini-header.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\faq-mini-header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\favourite-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\favourite-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\favourite-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\favourite-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\favourite-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\favourite-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\favourite-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\favourite-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\featured-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\featured-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\footer-partner-1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\footer-partner-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\footer-partner-2.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\footer-partner-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\footer-partner-3.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\footer-partner-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\footer-partner-4.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\footer-partner-4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\footer-partner-5.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\footer-partner-5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\footer-partner-6.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\footer-partner-6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\future-course-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\future-course-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gallery-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gallery-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\gotquestion-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\gotquestion-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-event-1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-event-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-event-2.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-event-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-event-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-event-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-event-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-event-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-event-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-event-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-event-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-event-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-event-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-event-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-event-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-event-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-eventpop-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-eventpop-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-eventpop-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-eventpop-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-eventpop-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-eventpop-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-grid-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-grid-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-grid-2-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-grid-2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-grid-2-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-grid-2-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-grid-2-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-grid-2-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-grid-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-grid-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-grid-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-grid-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\latest-news-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\latest-news-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\learn-grid-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\learn-grid-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\learn-grid-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\learn-grid-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\learn-grid-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\learn-grid-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\learn-grid-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\learn-grid-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\learn-listing-1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\learn-listing-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\learn-listing-2.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\learn-listing-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\learn-listing-3.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\learn-listing-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\learn-listing-4.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\learn-listing-4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\lesson-list1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\lesson-list1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\lesson-list2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\lesson-list2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\lesson-list3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\lesson-list3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\mega-menuadd.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\mega-menuadd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\megamenu-frame.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\megamenu-frame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\mini-header.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\mini-header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-courses-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-courses-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-courses-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-courses-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-courses-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-courses-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-courses-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-courses-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-courses-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-courses-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-courses-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-courses-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-courses-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-courses-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-courses-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-courses-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\modren-testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\modren-testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-2.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-3.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-thumb-1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-thumb-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-thumb-2.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-thumb-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-thumb-3.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-thumb-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-courses-author.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-courses-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-courses1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-courses1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-history-1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-history-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-history-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-history-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-history-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-history-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-profesors-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-profesors-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-profesors-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-profesors-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-profesors-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-profesors-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-law.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-law.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-professors-mini-header.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\our-professors-mini-header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-4-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-4-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-4-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-4-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-4-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-4-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-4-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\papular-courses-thumb-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\papular-courses-thumb-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\parallex-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\parallex-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\recent-list-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\recent-list-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\recent-list-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\recent-list-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\recent-list-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\recent-list-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\reviews-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\reviews-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\reviews-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\reviews-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\reviews-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\reviews-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\share-img.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\share-img.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-detail-5.html",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-detail-5.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-gird-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-gird-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-icon-fb.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-icon-fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-icon-gmail.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-icon-gmail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-icon-pinit.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-icon-pinit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-icon-twitter.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-icon-twitter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-reviews-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-reviews-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-reviews-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-reviews-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-reviews-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-reviews-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-single-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-single-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-single-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-single-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-single-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-single-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-single-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-single-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\shop-single.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\shop-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\singleshop-miniheader.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\singleshop-miniheader.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\student-favourite-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\student-favourite-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\student-favourite-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\student-favourite-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\student-favourite-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\student-favourite-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\student-favourite-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\student-favourite-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\students-setting-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\students-setting-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\testimonial-nav-slider-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\testimonial-nav-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\testimonial-nav-slider-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\testimonial-nav-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\testimonial-nav-slider-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\testimonial-nav-slider-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\testimonial-slider-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\testimonial-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\testimonial-slider-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\testimonial-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\testimonial-thumb-1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\testimonial-thumb-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\testimonial-thumb-2.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\testimonial-thumb-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\typo-callaction.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\typo-callaction.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\typo-tabs.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\typo-tabs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\university-partners-1.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\university-partners-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\university-partners-2.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\university-partners-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\university-partners-3.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\university-partners-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\university-partners-4.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\university-partners-4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\university-partners-5.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\university-partners-5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\university-partners-6.png",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\university-partners-6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\whowe-are-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\whowe-are-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-add.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-add.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2-full-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2-full-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-gallery-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-gallery-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-galleryfull-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-galleryfull-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-latest-courses-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-latest-courses-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-latest-courses-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-latest-courses-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-latest-courses-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-latest-courses-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-latestnews-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-latestnews-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-latestnews-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-latestnews-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\widget-latestnews-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\widget-latestnews-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular-2.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular-2.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular-3.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular-3.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular-4.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular-4.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular-5.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular-5.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regulard41d.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\icon749c.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icon749c.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\icon749c.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icon749c.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\icon749c.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icon749c.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\fonts\\icon749c.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icon749c.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\apply-today-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\apply-today-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\contact-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-bg-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\contact-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\contact-service-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-service-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\event-label-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\event-label-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\featured-label.png",
+      "PackagePath": "staticwebassets\\assets\\images\\featured-label.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\logo-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\logo-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_rounded\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_rounded\\contentPattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_rounded\\contentPattern.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_rounded\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_rounded\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_square\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_square\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_square\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_square\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\dark_square\\sprite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\dark_square\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\default\\default_thumb.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\default\\default_thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\default\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\default\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\default\\sprite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\default\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\default\\sprite_next.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\default\\sprite_next.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\default\\sprite_prev.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\default\\sprite_prev.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\default\\sprite_x.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\default\\sprite_x.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\default\\sprite_y.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\default\\sprite_y.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\btnNext.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\contentPatternBottom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\contentPatternBottom.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\contentPatternLeft.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\contentPatternLeft.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\contentPatternRight.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\contentPatternRight.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\contentPatternTop.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\contentPatternTop.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\facebook\\sprite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\facebook\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\light_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\light_rounded\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\light_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\light_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\light_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\light_rounded\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\light_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\light_rounded\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\light_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\light_square\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\light_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\light_square\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\prettyPhoto\\light_square\\sprite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prettyPhoto\\light_square\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\see-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\see-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\testimonial-comment.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial-comment.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\testimonial-qoutes-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial-qoutes-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\testimonial-qoutes.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial-qoutes.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\images\\title-line.png",
+      "PackagePath": "staticwebassets\\assets\\images\\title-line.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\script\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\fitvideo.js",
+      "PackagePath": "staticwebassets\\assets\\script\\fitvideo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\functions.js",
+      "PackagePath": "staticwebassets\\assets\\script\\functions.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\script\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\script\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\script\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\assets\\script\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\jquery.prettyphoto.js",
+      "PackagePath": "staticwebassets\\assets\\script\\jquery.prettyphoto.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\script\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\skills.js",
+      "PackagePath": "staticwebassets\\assets\\script\\skills.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\slick.slider.min.js",
+      "PackagePath": "staticwebassets\\assets\\script\\slick.slider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\script\\waypoints-min.js",
+      "PackagePath": "staticwebassets\\assets\\script\\waypoints-min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\demo.css.map",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\demo.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\fonts.min.css",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\fonts.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\kaiadmin.css",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\kaiadmin.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\kaiadmin.css.map",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\kaiadmin.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\kaiadmin.min.css",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\kaiadmin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\plugins.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\plugins.css.map",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\plugins.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\css\\plugins.min.css",
+      "PackagePath": "staticwebassets\\assets_admin\\css\\plugins.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\summernote\\summernote.eot",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\summernote\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\summernote\\summernote.ttf",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\summernote\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\summernote\\summernote.woff",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\summernote\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\fonts\\summernote\\summernote.woff2",
+      "PackagePath": "staticwebassets\\assets_admin\\fonts\\summernote\\summernote.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\arashmil.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\arashmil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\bg-404.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\bg-404.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\blogpost.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\blogpost.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\chadengle.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\chadengle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example1.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example10-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example10-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example10.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example11-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example11-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example11.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example12-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example12-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example12.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example2.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example3-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example3-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example3.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example4-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example4-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example4.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example5-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example5-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example5.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example6-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example6-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example6.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example7-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example7-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example7.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example8-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example8-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example8.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example9-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example9-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\example9.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\example9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\logo.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\logo1.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\logo1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\logo2.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\logo2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\logoinvoice.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\logoinvoice.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product1.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product10.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product11.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product12.jpeg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product2.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product3.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product4.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product5.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product6.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product7.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\examples\\product8.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\examples\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ad.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ad.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ae.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ae.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\af.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\af.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ag.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ag.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ai.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ai.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\al.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\al.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\am.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\am.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\an.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\an.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ao.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ao.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ar.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ar.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\as.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\as.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\at.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\at.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\au.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\au.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\aw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\aw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ax.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ax.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\az.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\az.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ba.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ba.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bb.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bb.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bd.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bd.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\be.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\be.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bf.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bf.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bh.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bh.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bi.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bi.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bj.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bj.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bo.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\br.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\br.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bs.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bs.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bt.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bt.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bv.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bv.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\by.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\by.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\bz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\bz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ca.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ca.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\catalonia.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\catalonia.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cc.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cc.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cd.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cd.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cf.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cf.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ch.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ch.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ci.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ci.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ck.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ck.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cl.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\co.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\co.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cs.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cs.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cu.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cu.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cv.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cv.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cx.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cx.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cy.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cy.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\cz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\cz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\de.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\de.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\dj.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\dj.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\dk.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\dk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\dm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\dm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\do.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\do.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\dz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\dz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ec.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ec.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ee.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ee.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\eg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\eg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\eh.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\eh.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\england.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\england.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\er.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\er.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\es.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\es.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\et.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\et.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\europeanunion.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\europeanunion.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\fam.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\fam.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\fi.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\fi.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\fj.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\fj.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\fk.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\fk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\fm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\fm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\fo.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\fo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\fr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\fr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ga.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ga.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gb.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gb.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gd.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gd.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ge.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ge.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gf.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gf.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gh.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gh.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gi.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gi.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gl.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gp.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gp.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gq.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gq.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gs.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gs.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gt.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gt.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gu.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gu.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\gy.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\gy.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\hk.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\hk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\hm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\hm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\hn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\hn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\hr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\hr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ht.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ht.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\hu.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\hu.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\id.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\id.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ie.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ie.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\il.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\il.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\in.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\in.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\io.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\io.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\iq.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\iq.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ir.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ir.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\is.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\is.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\it.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\it.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\jm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\jm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\jo.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\jo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\jp.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\jp.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ke.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ke.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\kg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\kg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\kh.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\kh.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ki.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ki.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\km.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\km.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\kn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\kn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\kp.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\kp.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\kr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\kr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\kw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\kw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ky.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ky.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\kz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\kz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\la.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\la.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\lb.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\lb.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\lc.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\lc.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\li.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\li.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\lk.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\lk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\lr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\lr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ls.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ls.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\lt.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\lt.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\lu.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\lu.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\lv.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\lv.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ly.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ly.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ma.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ma.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mc.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mc.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\md.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\md.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\me.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\me.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mh.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mh.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mk.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ml.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ml.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mo.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mp.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mp.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mq.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mq.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ms.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ms.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mt.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mt.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mu.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mu.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mv.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mv.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mx.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mx.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\my.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\my.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\mz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\mz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\na.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\na.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\nc.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\nc.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ne.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ne.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\nf.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\nf.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ng.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ng.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ni.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ni.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\nl.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\nl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\no.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\no.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\np.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\np.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\nr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\nr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\nu.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\nu.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\nz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\nz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\om.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\om.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pa.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pa.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pe.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pe.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pf.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pf.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ph.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ph.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pk.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pl.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ps.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ps.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pt.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pt.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\pw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\pw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\py.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\py.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\qa.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\qa.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\re.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\re.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\readme.txt",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ro.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ro.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\rs.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\rs.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ru.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ru.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\rw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\rw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sa.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sa.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sb.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sb.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sc.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sc.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\scotland.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\scotland.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sd.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sd.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\se.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\se.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sh.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sh.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\si.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\si.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sj.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sj.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sk.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sl.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\so.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\so.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\st.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\st.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sv.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sv.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sy.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sy.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\sz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\sz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tc.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tc.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\td.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\td.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tf.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tf.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\th.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\th.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tj.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tj.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tk.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tl.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\to.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\to.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tr.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tr.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tt.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tt.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tv.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tv.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\tz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\tz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ua.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ua.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ug.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ug.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\um.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\um.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\us.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\us.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\uy.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\uy.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\uz.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\uz.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\va.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\va.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\vc.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\vc.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ve.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ve.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\vg.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\vg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\vi.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\vi.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\vn.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\vn.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\vu.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\vu.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\wales.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\wales.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\wf.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\wf.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ws.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ws.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\ye.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\ye.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\yt.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\yt.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\za.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\za.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\zm.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\zm.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\flags\\zw.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\flags\\zw.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\img-shadow.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\img-shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\jm_denis.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\jm_denis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo1.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo2.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo3.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo4.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo5.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo6.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo7.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo8.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\demo9.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\demo9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\favicon.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\favicon.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\icon.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\icon.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\logo_dark.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\logo_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\logo_dark.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\logo_dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\logo_documentation.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\logo_documentation.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\logo_light.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\logo_light.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\kaiadmin\\logo_light.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\logo_light.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\logoproduct.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\logoproduct.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\logoproduct2.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\logoproduct2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\logoproduct3.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\logoproduct3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\mlane.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\mlane.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\profile2.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\profile2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\sauro.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\sauro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\talha.jpg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\talha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_Hello_qnas.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_Hello_qnas.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_Taken_if77.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_Taken_if77.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_blank_canvas_3rbb.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_blank_canvas_3rbb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_creative_team_r90h.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_creative_team_r90h.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_empty_xct9.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_empty_xct9.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_no_data_qbuo.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_no_data_qbuo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_not_found_60pq.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_not_found_60pq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_page_not_found_su7k.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_page_not_found_su7k.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_sign_in_e6hj.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_sign_in_e6hj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_tabs_jf82.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_tabs_jf82.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_update_uxn2.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_update_uxn2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\undraw\\undraw_upgrade_06a0.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\undraw\\undraw_upgrade_06a0.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\visa.svg",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\visa.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\core\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\core\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\demo.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\kaiadmin.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\kaiadmin.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\kaiadmin.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\kaiadmin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\chart-circle\\circles.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\jsvectormap\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\jsvectormap\\jsvectormap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\jsvectormap\\world.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\jsvectormap\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\list.js\\list.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\list.js\\list.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\owl-carousel\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\owl-carousel\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\owl-carousel\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\owl-carousel\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\sortable\\sortable.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\sortable\\sortable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\plugin\\webfont\\webfont.min.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\plugin\\webfont\\webfont.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\setting-demo.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\setting-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\js\\setting-demo2.js",
+      "PackagePath": "staticwebassets\\assets_admin\\js\\setting-demo2.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ITM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ITM.props",
+      "PackagePath": "build\\ITM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ITM.props",
+      "PackagePath": "buildMultiTargeting\\ITM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ITM.props",
+      "PackagePath": "buildTransitive\\ITM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

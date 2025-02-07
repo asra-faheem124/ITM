@@ -1,0 +1,154 @@
+﻿@model ITM.Models.Adm
+@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}<!--// Mini Header \\-->
+<div class="wm-mini-header">
+    <span class="wm-blue-transparent"></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="wm-mini-title">
+                    <h1>Admission</h1>
+                </div>
+                <div class="wm-breadcrumb">
+                    <ul>
+                        <li><a href="index-2.html">Home</a></li>
+                        <li>Admission</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--// Mini Header \\-->
+<!--// Main Content \\-->
+<div class="wm-main-content">
+
+    <!--// Main Section \\-->
+    <div class="wm-main-section wm-contact-full wm-contact-full-inner">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="wm-contact-tab">
+
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="home">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <div class="wm-contact-form d-flex justify-content-center" >
+                                            <span>Start Your Journey with Us</span>
+                                            <form class="border border-dark"  method="post" asp-controller="User" asp-action="Index">
+                                                <ul>
+                                                    <li>
+                                                        <i class="wmicon-black"></i>
+                                                        <input type="text" value="Name" onblur="if(this.value == '') { this.value ='Name'; }" onfocus="if(this.value =='Name') { this.value = ''; }">
+                                                    </li>
+                                                    <li>
+                                                        <i class="wmicon-black"></i>
+                                                        <input type="text" value="Father Name" onblur="if(this.value == '') { this.value ='Father Name'; }" onfocus="if(this.value =='Father Name') { this.value = ''; }">
+                                                    </li>
+                                                    <li>
+                                                        <i class="wmicon-black"></i>
+                                                        <input type="text" value="Mother Name" onblur="if(this.value == '') { this.value ='Mother Name'; }" onfocus="if(this.value =='Mother Name') { this.value = ''; }">
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-calendar"></i>
+                                                        <input type="text" value="Date Of Birth" onblur="if(this.value == '') { this.value ='Date Of Birth'; }" onfocus="if(this.value =='Date Of Birth') { this.value = ''; }">
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-venus-mars"></i>
+                                                        <input type="text" value="Gender" onblur="if(this.value == '') { this.value ='Gender'; }" onfocus="if(this.value =='Gender') { this.value = ''; }">
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-home"></i>
+                                                        <input type="text" value="Residential Address" onblur="if(this.value == '') { this.value ='Residential Address'; }" onfocus="if(this.value =='Residential Address') { this.value = ''; }">
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-home"></i>
+                                                        <input type="text" value="Permanent Address" onblur="if(this.value == '') { this.value ='Permanent Address'; }" onfocus="if(this.value =='Permanent Address') { this.value = ''; }">
+                                                    </li>
+
+                                                    <!-- table start -->
+                                                    <h5>Details of Previous Exam</h5>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>University</th>
+                                                                <th>Enrollment Number</th>
+                                                                <th>Center</th>
+                                                                <th>Stream</th>
+                                                                <th>Field</th>
+                                                                <th>Marks Secured</th>
+                                                                <th>Out Of</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><input type="text" class="form-control"></td>
+                                                                <td><input type="text" class="form-control"></td>
+                                                                <td><input type="text" class="form-control"></td>
+                                                                <td><input type="text" class="form-control"></td>
+                                                                <td><input type="text" class="form-control"></td>
+                                                                <td><input type="text" class="form-control"></td>
+                                                                <td><input type="text" class="form-control"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- table end -->
+
+                                                    <li> <input type="submit" value="Send Message"> </li>
+                                                    <li>
+                                                        <a href="~/Admission Form.pdf" class="btn btn-primary" download>Download Form</a>
+                                                    </li>
+                                                </ul>
+                                            </form>
+                                      
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="profile">
+                                <span class="wm-contact-title">Contact Info</span>
+                                <div class="wm-contact-service">
+                                    <ul class="row">
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-pin"></i></span>
+                                            <h5 class="wm-color">Address</h5>
+                                            <p>195 Cooks Mine Road Espanola, NM 87532</p>
+                                        </li>
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-phone"></i></span>
+                                            <h5 class="wm-color">Phone & Fax</h5>
+                                            <p>+1 505-753-5656 +1 505-753-4437</p>
+                                        </li>
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-letter"></i></span>
+                                            <h5 class="wm-color">E-mail</h5>
+                                            <p><a href="mailto:name@email.com">Info@university.com</a> <a href="mailto:name@email.com">support@university.com</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="contact-social-icon">
+                                    <li><a href="#"><i class="wm-color wmicon-social5"></i> Facebook</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-social4"></i> Twitter</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-social3"></i> Linkedin</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-vimeo"></i> Vimeo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--// Main Section \\-->
+
+</div>
+<!--// Main Content \\-->
