@@ -113,6 +113,14 @@
       "PackagePath": "staticwebassets\\assets\\extra-images\\admin-blog.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\algebra.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\algebra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\analytical.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\analytical.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\ask-questoin-bg.png",
       "PackagePath": "staticwebassets\\assets\\extra-images\\ask-questoin-bg.png"
     },
@@ -233,6 +241,10 @@
       "PackagePath": "staticwebassets\\assets\\extra-images\\button-typobg.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\calculus.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\calculus.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\categories-miniheader.jpg",
       "PackagePath": "staticwebassets\\assets\\extra-images\\categories-miniheader.jpg"
     },
@@ -329,6 +341,10 @@
       "PackagePath": "staticwebassets\\assets\\extra-images\\data-seince-1.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\earth.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\earth.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-detail-1.jpg",
       "PackagePath": "staticwebassets\\assets\\extra-images\\event-detail-1.jpg"
     },
@@ -363,6 +379,30 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\event-visa4.png",
       "PackagePath": "staticwebassets\\assets\\extra-images\\event-visa4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\fac 1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\fac 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\fac 2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\fac 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\fac 3.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\fac 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\fac 4.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\fac 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\fac 5.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\fac 5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\fac 6.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\fac 6.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\faq-mini-header.jpg",
@@ -411,6 +451,14 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\footer-partner-6.png",
       "PackagePath": "staticwebassets\\assets\\extra-images\\footer-partner-6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\french 1.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\french 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\french 2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\french 2.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\future-course-image-1.jpg",
@@ -581,12 +629,24 @@
       "PackagePath": "staticwebassets\\assets\\extra-images\\lesson-list3.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\macro.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\macro.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\mega-menuadd.jpg",
       "PackagePath": "staticwebassets\\assets\\extra-images\\mega-menuadd.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\megamenu-frame.jpg",
       "PackagePath": "staticwebassets\\assets\\extra-images\\megamenu-frame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\micro.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\micro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\mine.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\mine.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\mini-header.jpg",
@@ -683,6 +743,10 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\news-grid-thumb-3.png",
       "PackagePath": "staticwebassets\\assets\\extra-images\\news-grid-thumb-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\organic.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\organic.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\our-courses-author.jpg",
@@ -915,6 +979,14 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\popular-courses-thumb-4.jpg",
       "PackagePath": "staticwebassets\\assets\\extra-images\\popular-courses-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\psy 2.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\psy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\psychology.jpg",
+      "PackagePath": "staticwebassets\\assets\\extra-images\\psychology.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\recent-list-1.jpg",

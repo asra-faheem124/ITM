@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ITM.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ITM.Controllers
 {
     public class UserController : Controller
     {
+        CollegeManagementSystemContext _context = new CollegeManagementSystemContext();
         public IActionResult Index()
         {
             return View();
@@ -24,12 +26,14 @@ namespace ITM.Controllers
 
         public IActionResult Department()
         {
-            return View();
+            var department = _context.Departments.ToList();
+            return View(department);
         }
 
         public IActionResult Courses()
         {
-            return View();
+            var courses = _context.Courses.ToList();
+            return View(courses);
         }
 
         public IActionResult Faculty()
@@ -40,6 +44,12 @@ namespace ITM.Controllers
         public IActionResult Admission()
         {
             return View();
+        }
+
+        public IActionResult Facility()
+        {
+            var facility = _context.Facilities.ToList();
+            return View(facility);
         }
     }
 }

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<ITM.Models.Facility>
+
+@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+<!--// Mini Header \\-->
+<div class="wm-mini-header">
+    <span class="wm-blue-transparent"></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="wm-mini-title">
+                    <h1>Our Facilities</h1>
+                </div>
+                <div class="wm-breadcrumb">
+                    <ul>
+                        <li><a href="index-2.html">Home</a></li>
+                        <li><a href="index-2.html">About</a></li>
+                        <li>Facilities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--// Mini Header \\-->
+<!--// Main Content \\-->
+<div class="wm-main-content">
+
+    <!--// Main Section \\-->
+    <div class="wm-main-section">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-12">
+                        <div class="wm-courses wm-courses-popular wm-courses-mediumsec">
+                            <ul class="row">
+                                <li class="col-md-12">
+                                    <div class="wm-courses-popular-wrap">
+                                        <figure>
+                                            <img src="~/assets/extra-images/@item.FacilityImg"/>
+                                        </figure>
+                                        <div class="wm-popular-courses-text">
+                                            <h6>@item.FacilityName</h6>
+                                            <p>@item.FacilityDesc</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!--// Main Section \\-->
+
+</div>
+<!--// Main Content \\-->
