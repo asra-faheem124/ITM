@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="row">
+        <div class="col-lg-6">
+<div class="wm-modallogin-form wm-login-popup">
+    <span class="wm-color">Login to Your Account</span>
+                @if(ViewBag.Message != null)
+                {
+                    <span style="color: red;">ViewBag.Message</span>
+                }
+                <form>
+        <ul>
+            <li>
+                <input type="text" placeholder="Your Username">
+            </li>
+            <li>
+                <input type="password" placeholder="Your Password">
+            </li>
+            <li> <input type="submit" value="Sign In"></li>
+        </ul>
+    </form>
+    <span class="wm-color">or try our socials</span>
+    <ul class="wm-login-social-media">
+        <li><a href="#"><i class="wmicon-social5"></i> Facebook</a></li>
+        <li class="wm-twitter-color"><a href="#"><i class="wmicon-social4"></i> twitter</a></li>
+        <li class="wm-googleplus-color">
+            <a href="#">
+                <i class="fa fa-google-plus-square"></i>
+                Google+
+            </a>
+        </li>
+    </ul>
+    <p>Not a member yet? <a asp-controller="User" asp-action="Signup">Sign-up Now!</a></p>
+</div>
+</div>
+</div>
+</div>

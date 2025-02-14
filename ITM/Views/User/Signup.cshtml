@@ -1,0 +1,49 @@
+﻿@model ITM.Models.User
+
+@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="wm-modallogin-form wm-login-popup">
+                <span class="wm-color">Create Your Account</span>
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+                <form asp-action="Signup" method="post">
+                    <ul>
+                        <li>
+                            <input type="text" asp-for="UserName" placeholder="Your Username">
+                            <span asp-validation-for="UserName" style="color:red;"></span>
+                        </li> 
+                        <li>
+                            <input type="text" asp-for="UserEmail" placeholder="Your Email">
+                            <span asp-validation-for="UserEmail" style="color:red;"></span>
+                        </li>
+                        <li> 
+                            <input type="password" asp-for="UserPassword" placeholder="Your Password">
+                            <span asp-validation-for="UserPassword" style="color:red;"></span>
+                        </li>
+                        <li> <input type="submit" value="Sign Up"> </li>
+                    </ul>
+                </form>
+                <span class="wm-color">or try our socials</span>
+                <ul class="wm-login-social-media">
+                    <li><a href="#"><i class="wmicon-social5"></i> Facebook</a></li>
+                    <li class="wm-twitter-color"><a href="#"><i class="wmicon-social4"></i> twitter</a></li>
+                    <li class="wm-googleplus-color">
+                        <a href="#">
+                            <i class="fa fa-google-plus-square"></i>
+                            Google+
+                        </a>
+                    </li>
+                </ul>
+                <p>Already a member? <a asp-controller="User" asp-action="Login">Sign-in Now!</a></p>
+            </div>
+        </div>
+    </div>
+</div>

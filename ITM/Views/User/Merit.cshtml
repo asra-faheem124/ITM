@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ITM.Models.MeritList>
+
+@*     merit list  *@
+<section class="container mb-3" id="merit_list">
+    <h2 class="text-center mb-4" style="color:#003c5a">Merit <span style="color:rgba(185,150,99,0.70);">List</span> </h2>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped" style="margin-top:30px">
+            <thead class="table-dark">
+                <tr>
+                    <th>S.No</th>
+                    <th>Department</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.MeritId</td>
+                        <td>@item.MeritName</td>
+                        <td>@item.MeritPer %</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
+@* merit list ends *@

@@ -17,6 +17,8 @@ public partial class CollegeManagementSystemContext : DbContext
 
     public virtual DbSet<Admin> Admins { get; set; }
 
+    public virtual DbSet<Contact> Contacts { get; set; }
+
     public virtual DbSet<Course> Courses { get; set; }
 
     public virtual DbSet<Department> Departments { get; set; }
@@ -24,6 +26,8 @@ public partial class CollegeManagementSystemContext : DbContext
     public virtual DbSet<Facility> Facilities { get; set; }
 
     public virtual DbSet<Faculty> Faculties { get; set; }
+
+    public virtual DbSet<MeritList> MeritLists { get; set; }
 
     public virtual DbSet<PreviousExam> PreviousExams { get; set; }
 
@@ -65,6 +69,23 @@ public partial class CollegeManagementSystemContext : DbContext
             entity.HasOne(d => d.Role).WithMany(p => p.Admins)
                 .HasForeignKey(d => d.RoleId)
                 .HasConstraintName("FK__Admin__role_id__3D5E1FD2");
+        });
+
+        modelBuilder.Entity<Contact>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Contact__3214EC0739B10076");
+
+            entity.ToTable("Contact");
+
+            entity.Property(e => e.Email)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Message)
+                .HasMaxLength(500)
+                .IsUnicode(false);
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Course>(entity =>
@@ -156,12 +177,15 @@ public partial class CollegeManagementSystemContext : DbContext
             entity.ToTable("Faculty");
 
             entity.Property(e => e.FacultyId).HasColumnName("faculty_id");
+            entity.Property(e => e.Department)
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.DepartmentId).HasColumnName("department_id");
             entity.Property(e => e.Designation)
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Experience)
-                .HasMaxLength(50)
+                .HasMaxLength(255)
                 .IsUnicode(false);
             entity.Property(e => e.FacultyImg)
                 .HasMaxLength(100)
@@ -172,12 +196,26 @@ public partial class CollegeManagementSystemContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("faculty_name");
             entity.Property(e => e.Qualification)
-                .HasMaxLength(50)
+                .HasMaxLength(255)
                 .IsUnicode(false);
 
-            entity.HasOne(d => d.Department).WithMany(p => p.Faculties)
+            entity.HasOne(d => d.DepartmentNavigation).WithMany(p => p.Faculties)
                 .HasForeignKey(d => d.DepartmentId)
                 .HasConstraintName("FK__Faculty__departm__4CA06362");
+        });
+
+        modelBuilder.Entity<MeritList>(entity =>
+        {
+            entity.HasKey(e => e.MeritId).HasName("PK__Merit_li__06847B65D570DEB7");
+
+            entity.ToTable("Merit_list");
+
+            entity.Property(e => e.MeritId).HasColumnName("merit_id");
+            entity.Property(e => e.MeritName)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("merit_name");
+            entity.Property(e => e.MeritPer).HasColumnName("merit_per");
         });
 
         modelBuilder.Entity<PreviousExam>(entity =>
@@ -255,28 +293,23 @@ public partial class CollegeManagementSystemContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370F18026481");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FC8CD1D19");
 
-            entity.HasIndex(e => e.UserEmail, "UQ__Users__B0FBA2120F17C8A9").IsUnique();
+            entity.HasIndex(e => e.UserEmail, "UQ__Users__B0FBA212D3F19198").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("user_id");
-            entity.Property(e => e.RoleId).HasColumnName("role_id");
             entity.Property(e => e.UserEmail)
-                .HasMaxLength(100)
+                .HasMaxLength(255)
                 .IsUnicode(false)
                 .HasColumnName("user_email");
             entity.Property(e => e.UserName)
-                .HasMaxLength(50)
+                .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("user_name");
             entity.Property(e => e.UserPassword)
-                .HasMaxLength(50)
+                .HasMaxLength(255)
                 .IsUnicode(false)
                 .HasColumnName("user_password");
-
-            entity.HasOne(d => d.Role).WithMany(p => p.Users)
-                .HasForeignKey(d => d.RoleId)
-                .HasConstraintName("FK__Users__role_id__412EB0B6");
         });
 
         OnModelCreatingPartial(modelBuilder);

@@ -1,4 +1,6 @@
-﻿@{
+﻿@model ITM.Models.Contact
+
+@{
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 <!--// Main Content \\-->
@@ -27,23 +29,28 @@
                                     <div class="col-md-8">
                                         <div class="wm-contact-form">
                                             <span>Talk To Us Today</span>
-                                            <form>
+                                            @if (TempData["SuccessMessage"] != null)
+                                            {
+                                                <div class="alert alert-success">
+                                                    @TempData["SuccessMessage"]
+                                                </div>
+                                            }
+                                            <form asp-action="Contact" method="post">
                                                 <ul>
                                                     <li>
                                                         <i class="wmicon-black"></i>
-                                                        <input type="text" value="Name" onblur="if(this.value == '') { this.value ='Name'; }" onfocus="if(this.value =='Name') { this.value = ''; }">
+                                                        <input type="text" asp-for="Name" placeholder="Name" class="form-control">
+                                                        <span asp-validation-for="Name" style="color:red;"></span>
                                                     </li>
                                                     <li>
                                                         <i class="wmicon-symbol3"></i>
-                                                        <input type="text" value="E-mail" onblur="if(this.value == '') { this.value ='E-mail'; }" onfocus="if(this.value =='E-mail') { this.value = ''; }">
-                                                    </li>
-                                                    <li>
-                                                        <i class="wmicon-technology4"></i>
-                                                        <input type="text" value="Phone" onblur="if(this.value == '') { this.value ='Phone'; }" onfocus="if(this.value =='Phone') { this.value = ''; }">
+                                                        <input type="text" asp-for="Email" placeholder="Email" class="form-control">
+                                                        <span asp-validation-for="Email" style="color:red;"></span>
                                                     </li>
                                                     <li>
                                                         <i class="wmicon-web2"></i>
-                                                        <textarea placeholder="Message"></textarea>
+                                                        <textarea placeholder="Message" asp-for="Message" class="form-control"></textarea>
+                                                        <span asp-validation-for="Message" style="color:red;"></span>
                                                     </li>
                                                     <li> <input type="submit" value="Send Message"> </li>
                                                 </ul>

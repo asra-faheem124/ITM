@@ -1,4 +1,18 @@
-﻿@{
+﻿@model IEnumerable<ITM.Models.Faculty>
+@{
+	// Mapping Departments to CSS Classes
+	var departmentClassMapping = new Dictionary<string, string>
+	{
+		{ "Chemistry", "jquery" },
+		{ "French", "php" },
+		{ "Economics", "wordpress" },
+		{ "Psychology", "seo" },
+		{ "Geology", "laravel" },
+		{ "Mathematics", "sql" }
+	};
+}
+
+@{
 	Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 <!--// Mini Header \\-->
@@ -54,110 +68,31 @@
 						</li>
 					</ul>
 				</div>
-				<div class="wm-our-professors">
-					<ul class="row">
-						<li class="col-md-4 jquery">
-							<figure>
-								<img src="~/assets/extra-images/our-professors-1.jpg" alt="">
-							</figure>
-							<div class="wm-team-info">
-								<h5>Chester J. Graham</h5>
-								<div class="wm-icon">
-									<a class="wmicon-social5" href="#"></a>
-									<a class="wmicon-social4" href="#"></a>
-									<a class="wmicon-logo" href="#"></a>
+				
+					<div class="wm-our-professors ">
+					@foreach (var item in Model)
+					{
+						string facultyClass = departmentClassMapping.ContainsKey(item.Department) ? departmentClassMapping[item.Department] : "";
+						<ul class="row">
+							<li class="col-md-4 @facultyClass">
+								<figure>
+									<img src="~/assets/extra-images/@item.FacultyImg" alt="">
+								</figure>
+								<div class="wm-team-info">
+									<h5>@item.FacultyName</h5>
+									<div class="wm-icon">
+										<a class="wmicon-social5" href="#"></a>
+										<a class="wmicon-social4" href="#"></a>
+										<a class="wmicon-logo" href="#"></a>
+									</div>
+									<span>@item.Department DEPARTMENT</span>
+									<p>@item.Qualification</p>
+									<p>@item.Experience</p>
 								</div>
-								<span>Chemistry DEPARTMENT</span>
-								<p>Ph.D in Chemistry with a strong academic record.</p>
-								<p>23 years of teaching and research in chemistry.</p>
-							</div>
-						</li>
-						<li class="col-md-4 php">
-							<figure>
-								<img src="~/assets/extra-images/our-professors-2.jpg" alt="">
-								
-							</figure>
-							<div class="wm-team-info">
-								<h5>Sophie R. Ray</h5>
-								<div class="wm-icon">
-									<a class="wmicon-social5" href="#"></a>
-									<a class="wmicon-social4" href="#"></a>
-									<a class="wmicon-logo" href="#"></a>
-								</div>
-								<span>French DEPARTMENT</span>
-								<p>Master’s in French Language, Literature, and Linguistics.</p>
-								<p> 13 years of teaching in French studies.</p>
-							</div>
-						</li>
-						<li class="col-md-4 wordpress">
-							<figure>
-								<img src="~/assets/extra-images/our-professors-3.jpg" alt="">
-								
-							</figure>
-							<div class="wm-team-info">
-								<h5>Jeremy E. Orem</h5>
-								<div class="wm-icon">
-									<a class="wmicon-social5" href="#"></a>
-									<a class="wmicon-social4" href="#"></a>
-									<a class="wmicon-logo" href="#"></a>
-								</div>
-								<span>Economics DEPARTMENT</span>
-								<p>Advanced degree in Economics with expertise in economic theory and analysis.</p>
-								<p>22 years of teaching in Economics.</p>
-							</div>
-						</li>
-						<li class="col-md-4 seo">
-							<figure>
-								<img src="~/assets/extra-images/our-professors-4.jpg" alt="">
-								
-							</figure>
-							<div class="wm-team-info">
-								<h5>Travis D. Kloss</h5>
-								<div class="wm-icon">
-									<a class="wmicon-social5" href="#"></a>
-									<a class="wmicon-social4" href="#"></a>
-									<a class="wmicon-logo" href="#"></a>
-								</div>
-								<span>Psychology DEPARTMENT</span>
-								<p>Ph.D. in Psychology with specialization in a relevant field.</p>
-								<p>17 years of teaching, research and clinical practice in Psychology.</p>
-							</div>
-						</li>
-						<li class="col-md-4 laravel">
-							<figure>
-								<img src="~/assets/extra-images/our-professors-6.jpg" alt="">
-								
-							</figure>
-							<div class="wm-team-info">
-								<h5>Bradley B. Poole</h5>
-								<div class="wm-icon">
-									<a class="wmicon-social5" href="#"></a>
-									<a class="wmicon-social4" href="#"></a>
-									<a class="wmicon-logo" href="#"></a>
-								</div>
-								<span>Geology DEPARTMENT</span>
-								<p>Master’s in Geology or Earth Sciences with field and research expertise.</p>
-								<p>25 years of teaching, research and fieldwork in Geology.</p>
-							</div>
-						</li>
-						<li class="col-md-4 sql">
-							<figure>
-								<img src="~/assets/extra-images/our-professors-5.jpg" alt="">
-							</figure>
-							<div class="wm-team-info">
-								<h5>Olivia Jane Carter</h5>
-								<div class="wm-icon">
-									<a class="wmicon-social5" href="#"></a>
-									<a class="wmicon-social4" href="#"></a>
-									<a class="wmicon-logo" href="#"></a>
-								</div>
-								<span>Mathematics DEPARTMENT</span>
-								<p>Ph.D. in Mathematics with a strong background in theoretical and applied math.</p>
-								<p>15 years of teaching in Mathematics.</p>
-							</div>
-						</li>
-					</ul>
-				</div>
+							</li>
+						</ul>				}
+
+					</div>
 			</div>
 		</div>
 	</div>
