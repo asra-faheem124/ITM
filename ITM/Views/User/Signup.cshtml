@@ -15,18 +15,19 @@
                     </div>
                 }
                 <form asp-action="Signup" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <ul>
                         <li>
-                            <input type="text" asp-for="UserName" placeholder="Your Username">
-                            <span asp-validation-for="UserName" style="color:red;"></span>
+                            <input type="text" asp-for="Username" placeholder="Your Username">
+                            <span asp-validation-for="Username" style="color:red;"></span>
                         </li> 
                         <li>
-                            <input type="text" asp-for="UserEmail" placeholder="Your Email">
-                            <span asp-validation-for="UserEmail" style="color:red;"></span>
+                            <input type="text" asp-for="Useremail" placeholder="Your Email">
+                            <span asp-validation-for="Useremail" style="color:red;"></span>
                         </li>
                         <li> 
-                            <input type="password" asp-for="UserPassword" placeholder="Your Password">
-                            <span asp-validation-for="UserPassword" style="color:red;"></span>
+                            <input type="password" asp-for="Userpassword" placeholder="Your Password">
+                            <span asp-validation-for="Userpassword" style="color:red;"></span>
                         </li>
                         <li> <input type="submit" value="Sign Up"> </li>
                     </ul>

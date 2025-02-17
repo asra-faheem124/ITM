@@ -1,23 +1,26 @@
-﻿@{
+﻿@model ITM.Models.User
+
+@{
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
     <div class="row">
+        <div class="text-danger">@ViewBag.Message</div>
         <div class="col-lg-6">
 <div class="wm-modallogin-form wm-login-popup">
     <span class="wm-color">Login to Your Account</span>
-                @if(ViewBag.Message != null)
-                {
-                    <span style="color: red;">ViewBag.Message</span>
-                }
-                <form>
+                <form method="post" asp-action="Login">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <ul>
             <li>
-                <input type="text" placeholder="Your Username">
-            </li>
+                <input type="text" asp-for="Username" placeholder="Your Username">
+                            <span asp-validation-for="Username" style="color:red;"></span>              
+                        </li>
             <li>
-                <input type="password" placeholder="Your Password">
-            </li>
+                <input type="password" asp-for="Userpassword" placeholder="Your Password">
+                            <span asp-validation-for="Userpassword" style="color:red;"></span>
+                        </li>
+            
             <li> <input type="submit" value="Sign In"></li>
         </ul>
     </form>

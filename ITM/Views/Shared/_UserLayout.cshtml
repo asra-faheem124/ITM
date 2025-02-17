@@ -126,7 +126,21 @@
                                         <li>
                                             <a asp-controller="User" asp-action="Contact">Contact</a>
                                         </li>
-                                    </ul>
+                                        @if(ViewBag.userName != null)
+                                        {
+                                            <li>
+                                                @ViewBag.userName
+                                            </li>
+                                            <li>
+                                                <a asp-controller="User" asp-action="Logout">Logout</a>
+                                            </li>
+                                        }else
+                                            {
+                                                <li>
+                                                    <a asp-controller="User" asp-action="Login">Login</a>
+                                                </li>
+                                            }
+                                            </ul>
                                 </div>
                             </nav>
                         </div>

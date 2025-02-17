@@ -10,4 +10,6 @@ public partial class Role
     public string RoleName { get; set; } = null!;
 
     public virtual ICollection<Admin> Admins { get; set; } = new List<Admin>();
+
+    public virtual ICollection<User> Users { get; set; } = new List<User>();
 }

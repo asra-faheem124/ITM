@@ -14,12 +14,14 @@ namespace ITM.Controllers
         }
         public IActionResult About()
         {
+            ViewBag.userName = HttpContext.Session.GetString("userName");
             return View();
         }
 
         [HttpGet]
         public IActionResult Contact()
         {
+            ViewBag.userName = HttpContext.Session.GetString("userName");
             return View();
         }
         [HttpPost]
@@ -31,6 +33,7 @@ namespace ITM.Controllers
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = "Thank you for contacting us! We’ll review your request and reply at the earliest.";
             }
+            ViewBag.userName = HttpContext.Session.GetString("userName");
             return RedirectToAction("Index");
         }
 
@@ -43,16 +46,28 @@ namespace ITM.Controllers
         [HttpPost]
         public IActionResult Login(User user)
         {
-            var myuser = _context.Users.Where(x => x.UserEmail == user.UserEmail && x.UserPassword == user.UserPassword).FirstOrDefault();
-            if (myuser != null)
+            var returnUrl = Url.Action("Index", "Admin");
+            var userdata = _context.Users.Where(x => x.Username == user.Username && x.Userpassword == user.Userpassword).FirstOrDefault();
+            if (userdata != null)
             {
-                HttpContext.Session.SetString("UserSession", myuser.UserName);
+                HttpContext.Session.SetString("UserID", userdata.UserId.ToString());
+                HttpContext.Session.SetString("UserName", userdata.Username);
+                HttpContext.Session.SetString("UserEmail", userdata.Useremail);
+                HttpContext.Session.SetString("UserEmail", userdata.UserRoleId.ToString());
+                if(userdata.UserRoleId == 2)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return Redirect(returnUrl);
+                }
             }
             else
             {
-                ViewBag.Message = "Login Failed!";
+                ViewBag.Message = "Invalid Credentials!";
+                return View();
             }
-            return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult Signup()
@@ -68,34 +83,46 @@ namespace ITM.Controllers
                 _context.Users.Add(user);
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = "Your registration is complete. You can now log in and access your account.";
+                return RedirectToAction("Login");
             }
-            return RedirectToAction("Login");
+            return View("Signup");
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("UserName");
+            return RedirectToAction("Index");
         }
         public IActionResult FAQ()
         {
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View();
         }
 
         public IActionResult Department()
         {
             var department = _context.Departments.ToList();
+            ViewBag.userName = HttpContext.Session.GetString("userName");
             return View(department);
         }
 
         public IActionResult Courses()
         {
             var courses = _context.Courses.ToList();
+            ViewBag.userName = HttpContext.Session.GetString("userName");
             return View(courses);
         }
 
         public IActionResult Faculty()
         {
             var faculty = _context.Faculties.ToList();
+            ViewBag.userName = HttpContext.Session.GetString("userName");
             return View(faculty);
         }
 
         public IActionResult Admission()
         {
+            ViewBag.userName = HttpContext.Session.GetString("userName");
             return View();
         }
 

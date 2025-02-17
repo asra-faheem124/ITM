@@ -293,23 +293,30 @@ public partial class CollegeManagementSystemContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FC8CD1D19");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FAC7A1101");
 
-            entity.HasIndex(e => e.UserEmail, "UQ__Users__B0FBA212D3F19198").IsUnique();
+            entity.HasIndex(e => e.Useremail, "UQ__Users__870EAE618ED70DB4").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("user_id");
-            entity.Property(e => e.UserEmail)
+            entity.Property(e => e.UserRoleId)
+                .HasDefaultValue(2)
+                .HasColumnName("user_role_id");
+            entity.Property(e => e.Useremail)
                 .HasMaxLength(255)
                 .IsUnicode(false)
-                .HasColumnName("user_email");
-            entity.Property(e => e.UserName)
+                .HasColumnName("useremail");
+            entity.Property(e => e.Username)
                 .HasMaxLength(100)
                 .IsUnicode(false)
-                .HasColumnName("user_name");
-            entity.Property(e => e.UserPassword)
-                .HasMaxLength(255)
+                .HasColumnName("username");
+            entity.Property(e => e.Userpassword)
+                .HasMaxLength(100)
                 .IsUnicode(false)
-                .HasColumnName("user_password");
+                .HasColumnName("userpassword");
+
+            entity.HasOne(d => d.UserRole).WithMany(p => p.Users)
+                .HasForeignKey(d => d.UserRoleId)
+                .HasConstraintName("FK__Users__user_role__68487DD7");
         });
 
         OnModelCreatingPartial(modelBuilder);
