@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="en">
 
 <!--  13:28  -->
@@ -101,6 +103,7 @@
                                                 <li><a asp-controller="User" asp-action="About">Our Story</a></li>
                                                 <li><a asp-controller="User" asp-action="Facility">Facilities</a></li>
                                                 <li><a asp-controller="User" asp-action="Faculty">Faculty</a></li>
+                                                <li><a asp-controller="User" asp-action="FAQ">FAQ</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -116,29 +119,22 @@
                                         <li>
                                             <a href="/User/Index/#upcoming-events">Upcoming Events</a>
                                         </li>
-
-                                        <li>
-                                            <a asp-controller="User" asp-action="FAQ">FAQ</a>
-                                        </li>
                                         <li>
                                             <a asp-controller="User" asp-action="Admission">Admission</a>
                                         </li>
                                         <li>
                                             <a asp-controller="User" asp-action="Contact">Contact</a>
                                         </li>
-                                        @if(ViewBag.userName != null)
+                                        @{
+                                            if(ViewBag.userName != null)
                                         {
                                             <li>
-                                                @ViewBag.userName
+                                                    <a> @ViewBag.userName</a>
                                             </li>
                                             <li>
                                                 <a asp-controller="User" asp-action="Logout">Logout</a>
                                             </li>
-                                        }else
-                                            {
-                                                <li>
-                                                    <a asp-controller="User" asp-action="Login">Login</a>
-                                                </li>
+                                        }
                                             }
                                             </ul>
                                 </div>

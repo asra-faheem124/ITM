@@ -10,18 +10,19 @@ namespace ITM.Controllers
         public IActionResult Index()
         {
             var merit = _context.MeritLists.ToList();
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View(merit);
         }
         public IActionResult About()
         {
-            ViewBag.userName = HttpContext.Session.GetString("userName");
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View();
         }
 
         [HttpGet]
         public IActionResult Contact()
         {
-            ViewBag.userName = HttpContext.Session.GetString("userName");
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View();
         }
         [HttpPost]
@@ -33,7 +34,7 @@ namespace ITM.Controllers
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = "Thank you for contacting us! We’ll review your request and reply at the earliest.";
             }
-            ViewBag.userName = HttpContext.Session.GetString("userName");
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return RedirectToAction("Index");
         }
 
@@ -54,7 +55,7 @@ namespace ITM.Controllers
                 HttpContext.Session.SetString("UserName", userdata.Username);
                 HttpContext.Session.SetString("UserEmail", userdata.Useremail);
                 HttpContext.Session.SetString("UserEmail", userdata.UserRoleId.ToString());
-                if(userdata.UserRoleId == 2)
+                if (userdata.UserRoleId == 2)
                 {
                     return RedirectToAction("Index");
                 }
@@ -65,7 +66,7 @@ namespace ITM.Controllers
             }
             else
             {
-                ViewBag.Message = "Invalid Credentials!";
+                ViewBag.Error = "Invalid Credentials!";
                 return View();
             }
         }
@@ -102,33 +103,34 @@ namespace ITM.Controllers
         public IActionResult Department()
         {
             var department = _context.Departments.ToList();
-            ViewBag.userName = HttpContext.Session.GetString("userName");
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View(department);
         }
 
         public IActionResult Courses()
         {
             var courses = _context.Courses.ToList();
-            ViewBag.userName = HttpContext.Session.GetString("userName");
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View(courses);
         }
 
         public IActionResult Faculty()
         {
             var faculty = _context.Faculties.ToList();
-            ViewBag.userName = HttpContext.Session.GetString("userName");
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View(faculty);
         }
 
         public IActionResult Admission()
         {
-            ViewBag.userName = HttpContext.Session.GetString("userName");
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View();
         }
 
         public IActionResult Facility()
         {
             var facility = _context.Facilities.ToList();
+            ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View(facility);
         }
     }
