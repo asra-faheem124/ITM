@@ -1,0 +1,57 @@
+﻿@model ITM.Models.Department
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container" style="margin-top:80px;">
+    <div class="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Add Department</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            @if (TempData["SuccessMessage"] != null)
+                            {
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    @TempData["SuccessMessage"]
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            }
+                            <form asp-controller="Admin" asp-action="Depart_Create" method="post" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="DepartmentName">Name</label>
+                                        <input asp-for="DepartmentName" type="text" class="form-control" placeholder="Name" />
+                                        <span asp-validation-for="DepartmentName" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="DepartmentImg">Image</label>
+                                        <input asp-for="DepartmentImg" type="file" class="form-control" placeholder="Image" />
+                                        <span asp-validation-for="DepartmentImg" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="DepartmentDesc">Description</label>
+                                        <input asp-for="DepartmentDesc" type="text" class="form-control" placeholder="Description" />
+                                        <span asp-validation-for="DepartmentDesc" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="DepartmentTeacher">Teacher</label>
+                                        <input asp-for="DepartmentTeacher" type="text" class="form-control" placeholder="Teacher" />
+                                        <span asp-validation-for="DepartmentTeacher" class="text-danger"></span>
+                                    </div>
+                                    <div class="card-action">
+                                        <input class="btn btn-success" type="submit" value="Submit">
+                                        <a asp-action="Depart" class="btn btn-primary">Back to List</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

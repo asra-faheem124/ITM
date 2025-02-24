@@ -1,0 +1,52 @@
+﻿@model ITM.Models.User
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container" style="margin-top:80px;">
+    <div class="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Add User</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            @if (TempData["SuccessMessage"] != null)
+                            {
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    @TempData["SuccessMessage"]
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            }
+                            <form asp-controller="Admin" asp-action="User_Create" method="post">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Username">Name</label>
+                                        <input asp-for="Username" type="text" class="form-control" placeholder="Name" />
+                                        <span asp-validation-for="Username" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Useremail">Email</label>
+                                        <input asp-for="Useremail" type="text" class="form-control" placeholder="Email" />
+                                        <span asp-validation-for="Useremail" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Userpassword">Password</label>
+                                        <input asp-for="Userpassword" type="text" class="form-control" placeholder="Password" />
+                                        <span asp-validation-for="Userpassword" class="text-danger"></span>
+                                    </div>
+                                    <div class="card-action">
+                                        <input class="btn btn-success" type="submit" value="Submit">
+                                        <a asp-action="User" class="btn btn-primary">Back to List</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

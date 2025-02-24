@@ -17,6 +17,8 @@ public partial class CollegeManagementSystemContext : DbContext
 
     public virtual DbSet<Admin> Admins { get; set; }
 
+    public virtual DbSet<Admission> Admissions { get; set; }
+
     public virtual DbSet<Contact> Contacts { get; set; }
 
     public virtual DbSet<Course> Courses { get; set; }
@@ -32,8 +34,6 @@ public partial class CollegeManagementSystemContext : DbContext
     public virtual DbSet<PreviousExam> PreviousExams { get; set; }
 
     public virtual DbSet<Role> Roles { get; set; }
-
-    public virtual DbSet<Student> Students { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
@@ -69,6 +69,44 @@ public partial class CollegeManagementSystemContext : DbContext
             entity.HasOne(d => d.Role).WithMany(p => p.Admins)
                 .HasForeignKey(d => d.RoleId)
                 .HasConstraintName("FK__Admin__role_id__3D5E1FD2");
+        });
+
+        modelBuilder.Entity<Admission>(entity =>
+        {
+            entity.HasKey(e => e.StudentId).HasName("PK__Students__2A33069ADF9D5CDE");
+
+            entity.Property(e => e.StudentId).HasColumnName("student_id");
+            entity.Property(e => e.AdmissionFor)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("Admission_for");
+            entity.Property(e => e.DateOfBirth).HasColumnName("date_of_birth");
+            entity.Property(e => e.FatherName)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("father_name");
+            entity.Property(e => e.Gender)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.MotherName)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("mother_name");
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("name");
+            entity.Property(e => e.PermanentAddress)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("Permanent_Address");
+            entity.Property(e => e.ResidentialAddress)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("Residential_Address");
+            entity.Property(e => e.SportsDetails)
+                .HasColumnType("text")
+                .HasColumnName("Sports_details");
         });
 
         modelBuilder.Entity<Contact>(entity =>
@@ -165,7 +203,7 @@ public partial class CollegeManagementSystemContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("facility_img");
             entity.Property(e => e.FacilityName)
-                .HasMaxLength(50)
+                .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("facility_name");
         });
@@ -255,40 +293,6 @@ public partial class CollegeManagementSystemContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("role_name");
-        });
-
-        modelBuilder.Entity<Student>(entity =>
-        {
-            entity.HasKey(e => e.StudentId).HasName("PK__Students__2A33069ADF9D5CDE");
-
-            entity.Property(e => e.StudentId).HasColumnName("student_id");
-            entity.Property(e => e.AdmissionFor)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("Admission_for");
-            entity.Property(e => e.DateOfBirth).HasColumnName("date_of_birth");
-            entity.Property(e => e.FatherName)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("father_name");
-            entity.Property(e => e.Gender)
-                .HasMaxLength(50)
-                .IsUnicode(false);
-            entity.Property(e => e.MotherName)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("mother_name");
-            entity.Property(e => e.PermanentAddress)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("Permanent_Address");
-            entity.Property(e => e.ResidentialAddress)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("Residential_Address");
-            entity.Property(e => e.SportsDetails)
-                .HasColumnType("text")
-                .HasColumnName("Sports_details");
         });
 
         modelBuilder.Entity<User>(entity =>

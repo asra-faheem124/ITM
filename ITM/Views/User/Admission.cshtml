@@ -1,7 +1,8 @@
-﻿@model ITM.Models.Adm
+﻿@model ITM.Models.Admission
 @{
     Layout = "~/Views/Shared/_UserLayout.cshtml";
-}<!--// Mini Header \\-->
+}
+<!--// Mini Header \\-->
 <div class="wm-mini-header">
     <span class="wm-blue-transparent"></span>
     <div class="container">
@@ -39,37 +40,55 @@
                             <div class="tab-pane active" id="home">
                                 <div class="row flex-container col-md-offset-2">
                                     <div class="col-md-10">
-                                        <div class="wm-contact-form d-flex justify-content-center" >
+                                        <div class="wm-contact-form d-flex justify-content-center">
                                             <span style="color:black">Start Your Journey with Us</span>
-                                            <form class="border border-dark"  method="post" asp-controller="User" asp-action="Index">
+                                            <form class="border border-dark" method="post" asp-action="Admission">
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                                 <ul>
                                                     <li>
                                                         <i class="wmicon-black"></i>
-                                                        <input style="color:gray" type="text" value="Name" onblur="if(this.value == '') { this.value ='Name'; }" onfocus="if(this.value =='Name') { this.value = ''; }">
+                                                        <input style="color:gray" asp-for="Name" type="text" placeholder="Name">
+                                                        <span asp-validation-for="Name" style="color:red; font-size:16px;"></span>
                                                     </li>
                                                     <li>
                                                         <i class="wmicon-black"></i>
-                                                        <input style="color:gray" type="text" value="Father Name" onblur="if(this.value == '') { this.value ='Father Name'; }" onfocus="if(this.value =='Father Name') { this.value = ''; }">
+                                                        <input style="color:gray" asp-for="FatherName" type="text" placeholder="Father Name">
+                                                        <span asp-validation-for="FatherName" style="color:red; font-size:16px;"></span>
                                                     </li>
                                                     <li>
                                                         <i class="wmicon-black"></i>
-                                                        <input style="color:gray" type="text" value="Mother Name" onblur="if(this.value == '') { this.value ='Mother Name'; }" onfocus="if(this.value =='Mother Name') { this.value = ''; }">
+                                                        <input style="color:gray" asp-for="MotherName" type="text" placeholder="Mother Name">
+                                                        <span asp-validation-for="MotherName" style="color:red; font-size:16px;"></span>
                                                     </li>
                                                     <li>
                                                         <i class="fa fa-calendar"></i>
-                                                        <input style="color:gray" type="text" value="Date Of Birth" onblur="if(this.value == '') { this.value ='Date Of Birth'; }" onfocus="if(this.value =='Date Of Birth') { this.value = ''; }">
+                                                        <input style="color:gray" asp-for="DateOfBirth" placeholder="Date Of Birth">
+                                                        <span asp-validation-for="DateOfBirth" style="color:red; font-size:16px;"></span>
                                                     </li>
                                                     <li>
                                                         <i class="fa fa-venus-mars"></i>
-                                                        <input style="color:gray" type="text" value="Gender" onblur="if(this.value == '') { this.value ='Gender'; }" onfocus="if(this.value =='Gender') { this.value = ''; }">
+                                                        <input style="color:gray" asp-for="Gender" placeholder="Gender">
+                                                        <span asp-validation-for="Gender" style="color:red; font-size:16px; "></span>
                                                     </li>
                                                     <li>
                                                         <i class="fa fa-home"></i>
-                                                        <input style="color:gray" type="text" value="Residential Address" onblur="if(this.value == '') { this.value ='Residential Address'; }" onfocus="if(this.value =='Residential Address') { this.value = ''; }">
+                                                        <input style="color:gray" asp-for="ResidentialAddress" type="text" placeholder="Residential Address">
+                                                        <span asp-validation-for="ResidentialAddress" style="color:red; font-size:16px;"></span>
                                                     </li>
                                                     <li>
                                                         <i class="fa fa-home"></i>
-                                                        <input style="color:gray" type="text" value="Permanent Address" onblur="if(this.value == '') { this.value ='Permanent Address'; }" onfocus="if(this.value =='Permanent Address') { this.value = ''; }">
+                                                        <input style="color:gray" asp-for="PermanentAddress" type="text" placeholder="Permanent Address">
+                                                        <span asp-validation-for="PermanentAddress" style="color:red; font-size:16px;"></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-home"></i>
+                                                        <input style="color:gray" asp-for="AdmissionFor" placeholder="Admission For">
+                                                        <span asp-validation-for="AdmissionFor" style="color:red; font-size:16px;"></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-home"></i>
+                                                        <textarea style="color:gray" asp-for="SportsDetails" type="text" placeholder="Sports Details (if any)"></textarea>
+                                                        <span asp-validation-for="SportsDetails" style="color:red; font-size:16px;"></span>
                                                     </li>
 
                                                     <!-- table start -->
@@ -91,18 +110,24 @@
                                                                 <td>
                                                                     <input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
                                                                 </td>
-                                                                <td><input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
-                                                                    </td>
-                                                                <td><input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
-                                                                    </td>
-                                                                <td><input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
-                                                                    </td>
-                                                                <td><input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
-                                                                    </td>
-                                                                <td><input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
-                                                                    </td>
-                                                                <td><input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
-                                                                    </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" style="padding: 5px;line-height: 1.5;font-size: 14px;width: 100%;box-sizing: border-box;">
+                                                                </td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -114,7 +139,7 @@
                                                     </li>
                                                 </ul>
                                             </form>
-                                      
+
                                         </div>
                                     </div>
                                 </div>

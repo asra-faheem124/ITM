@@ -33,9 +33,11 @@ namespace ITM.Controllers
                 _context.Contacts.Add(contact);
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = "Thank you for contacting us! We’ll review your request and reply at the earliest.";
+                return RedirectToAction("Contact");
+
             }
             ViewBag.userName = HttpContext.Session.GetString("UserName");
-            return RedirectToAction("Index");
+            return RedirectToAction("Contact");
         }
 
         [HttpGet]
@@ -84,9 +86,26 @@ namespace ITM.Controllers
                 _context.Users.Add(user);
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = "Your registration is complete. You can now log in and access your account.";
-                return RedirectToAction("Login");
+                return RedirectToAction("Signup");
             }
             return View("Signup");
+        }
+        [HttpGet]
+        public IActionResult Admission()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Admission(Admission admission)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Admissions.Add(admission);
+                _context.SaveChanges();
+                TempData["SuccessMessage"] = "Your registration is complete. You can now log in and access your account.";
+                return RedirectToAction("Admission");
+            }
+            return View("Admission");
         }
 
         public IActionResult Logout()
@@ -121,17 +140,12 @@ namespace ITM.Controllers
             return View(faculty);
         }
 
-        public IActionResult Admission()
-        {
-            ViewBag.userName = HttpContext.Session.GetString("UserName");
-            return View();
-        }
-
         public IActionResult Facility()
         {
             var facility = _context.Facilities.ToList();
             ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View(facility);
         }
+
     }
 }

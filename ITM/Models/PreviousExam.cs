@@ -19,5 +19,5 @@ public partial class PreviousExam
 
     public int OutOf { get; set; }
 
-    public virtual Student? Student { get; set; }
+    public virtual Admission? Student { get; set; }
 }

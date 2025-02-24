@@ -28,7 +28,7 @@
                                     <div class="col-md-4"> <div class="wm-map"> <div id="map"></div> </div> </div>
                                     <div class="col-md-8">
                                         <div class="wm-contact-form">
-                                            <span>Talk To Us Today</span>
+                                            <span style="color: black;">Talk To Us Today</span>
                                             @if (TempData["SuccessMessage"] != null)
                                             {
                                                 <div class="alert alert-success">
@@ -36,21 +36,18 @@
                                                 </div>
                                             }
                                             <form asp-action="Contact" method="post">
-                                                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                                 <ul>
                                                     <li>
-                                                        <i class="wmicon-black"></i>
-                                                        <input type="text" asp-for="Name" placeholder="Name" class="form-control">
+                                                        <input type="text" asp-for="Name" placeholder="Your Name">
                                                         <span asp-validation-for="Name" style="color:red;"></span>
                                                     </li>
                                                     <li>
-                                                        <i class="wmicon-symbol3"></i>
-                                                        <input type="text" asp-for="Email" placeholder="Email" class="form-control">
+                                                        <input type="text" asp-for="Email" placeholder="Your Email">
                                                         <span asp-validation-for="Email" style="color:red;"></span>
                                                     </li>
                                                     <li>
-                                                        <i class="wmicon-web2"></i>
-                                                        <textarea placeholder="Message" asp-for="Message" class="form-control"></textarea>
+                                                        <textarea type="text" asp-for="Message" placeholder="Your Message"></textarea>
                                                         <span asp-validation-for="Message" style="color:red;"></span>
                                                     </li>
                                                     <li> <input type="submit" value="Send Message"> </li>
@@ -101,3 +98,7 @@
 
 </div>
 <!--// Main Content \\-->
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

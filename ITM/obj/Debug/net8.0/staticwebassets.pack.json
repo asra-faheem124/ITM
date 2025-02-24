@@ -3285,6 +3285,10 @@
       "PackagePath": "staticwebassets\\assets_admin\\img\\kaiadmin\\logo_light.svg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\logo-1-02-02.png",
+      "PackagePath": "staticwebassets\\assets_admin\\img\\logo-1-02-02.png"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\logoproduct.svg",
       "PackagePath": "staticwebassets\\assets_admin\\img\\logoproduct.svg"
     },

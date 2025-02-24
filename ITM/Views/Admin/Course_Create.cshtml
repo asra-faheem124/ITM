@@ -1,0 +1,72 @@
+﻿@model ITM.Models.Course
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container" style="margin-top:80px;">
+    <div class="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Add Course</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            @if (TempData["SuccessMessage"] != null)
+                            {
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    @TempData["SuccessMessage"]
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            }
+                            <form asp-controller="Admin" asp-action="Course_Create" method="post" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="CourseName">Name</label>
+                                        <input asp-for="CourseName" type="text" class="form-control" placeholder="Name" />
+                                        <span asp-validation-for="CourseName" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="CourseImg">Image</label>
+                                        <input asp-for="CourseImg" name="CourseImg" type="file" class="form-control" placeholder="Image" />
+                                        <span asp-validation-for="CourseImg" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="CourseDuration">Duration</label>
+                                        <input asp-for="CourseDuration" type="text" class="form-control" placeholder="Duration" />
+                                        <span asp-validation-for="CourseDuration" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="CourseFees">Fees</label>
+                                        <input asp-for="CourseFees" type="text" class="form-control" placeholder="Fees" />
+                                        <span asp-validation-for="CourseFees" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="CourseDesc">Description</label>
+                                        <textarea asp-for="CourseDesc" type="text" class="form-control" placeholder="Description" ></textarea>
+                                        <span asp-validation-for="CourseDesc" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="DepartmentId">Department Id</label>
+                                        <input asp-for="DepartmentId" type="text" class="form-control" placeholder="Department Id" />
+                                        <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="CourseTeacher">Teacher</label>
+                                        <input asp-for="CourseTeacher" type="text" class="form-control" placeholder="Teacher" />
+                                        <span asp-validation-for="CourseTeacher" class="text-danger"></span>
+                                    </div>
+                                    <div class="card-action">
+                                        <input class="btn btn-success" type="submit" value="Submit">
+                                        <a asp-action="Course" class="btn btn-primary">Back to List</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

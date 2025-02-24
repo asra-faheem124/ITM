@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6+E3D7EfOpgLeydKdOrS+XCZShoBG2mLBLb1qgj8EpA=",
+  "Hash": "Pm1tREKKfv0ak078tHJOvLML0u121If1xe6eLWmbNmo=",
   "Source": "ITM",
   "BasePath": "_content/ITM",
   "Mode": "Default",
@@ -15614,6 +15614,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets_admin\\img\\kaiadmin\\logo_light.svg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\logo-1-02-02.png",
+      "SourceId": "ITM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\",
+      "BasePath": "_content/ITM",
+      "RelativePath": "assets_admin/img/logo-1-02-02.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets_admin\\img\\logo-1-02-02.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets_admin\\img\\logoproduct.svg",
