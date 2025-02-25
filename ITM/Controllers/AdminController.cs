@@ -33,35 +33,16 @@ namespace ITM.Controllers
             return View(courses);
         }
         //create
-        [HttpGet("Admin/Course_Create")]
+        [HttpGet]
         public IActionResult Course_Create()
         {
             return View();
         }
-        [HttpPost("Admin/Course_Create")]
-        public IActionResult Course_Create(Course course, IFormFile CourseImg)
+        [HttpPost]
+        public IActionResult Course_Create(Course course)
         {
             if (ModelState.IsValid)
             {
-                // Handling file upload
-                if (CourseImg != null && CourseImg.Length > 0)
-                {
-                    var fileName = Path.GetFileName(CourseImg.FileName);
-                    var filePath = Path.Combine("wwwroot/uploads", fileName);
-
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        CourseImg.CopyTo(stream);
-                    }
-
-                    // Save file path to database
-                    course.CourseImg = "/uploads/" + fileName;
-                }
-                else
-                {
-                    ModelState.AddModelError("CourseImg", "Please upload an image.");
-                    return View(course);
-                }
                 _context.Courses.Add(course);
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = "Course added sucessfully. ";

@@ -1,0 +1,203 @@
+﻿@model ITM.Models.Admission
+@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+ @* <style>
+     span{
+     font-size: 20px;
+     }
+ </style> *@
+<!--// Mini Header \\-->
+<div class="wm-mini-header">
+    <span class="wm-blue-transparent"></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="wm-mini-title">
+                    <h1>Admission</h1>
+                </div>
+                <div class="wm-breadcrumb">
+                    <ul>
+                        <li><a href="index-2.html">Home</a></li>
+                        <li>Admission</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--// Mini Header \\-->
+<!--// Main Content \\-->
+<div class="wm-main-content">
+
+    <!--// Main Section \\-->
+    <div class="wm-main-section wm-contact-full wm-contact-full-inner">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="wm-contact-tab">
+
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="home">
+                                <div class="row flex-container col-md-offset-2">
+                                    <div class="col-md-10">
+                                        <div class="wm-contact-form d-flex justify-content-center">
+                                            <span style="color:black">Start Your Journey with Us</span>
+                                            @if (TempData["SuccessMessage"] != null)
+                                            {
+                                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                                    @TempData["SuccessMessage"]
+                                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                                </div>
+                                            }
+
+                                            <form asp-action="AdmissionForm" method="post">
+                                                    <div class="row">
+                                                        
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="Name"></label>
+                                                    <input asp-for="Name" class="form-control" />
+                                                    <span asp-validation-for="Name" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="FatherName"></label>
+                                                    <input asp-for="FatherName" class="form-control" />
+                                                        <span asp-validation-for="FatherName" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="MotherName"></label>
+                                                        <input asp-for="MotherName" class="form-control" sstyle="background-color:white" />
+                                                    <span asp-validation-for="MotherName" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6 bg-white">
+                                                    <label asp-for="DateOfBirth"></label>
+                                                    <input asp-for="DateOfBirth" type="date" class="form-control" />
+                                                    <span asp-validation-for="DateOfBirth" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-12">
+                                                    <label asp-for="Gender"></label>
+                                                    <select asp-for="Gender" class="form-control">
+                                                        <option value="">Select Gender</option>
+                                                        <option value="Male">Male</option>
+                                                        <option value="Female">Female</option>
+                                                    </select>
+                                                    <span asp-validation-for="Gender" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="ResidentialAddress"></label>
+                                                    <textarea asp-for="ResidentialAddress" class="form-control"></textarea>
+                                                        <span asp-validation-for="ResidentialAddress" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="PermanentAddress"></label>
+                                                    <textarea asp-for="PermanentAddress" class="form-control"></textarea>
+                                                        <span asp-validation-for="PermanentAddress" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="Stream"></label>
+                                                    <input asp-for="Stream" class="form-control" />
+                                                        <span asp-validation-for="Stream" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="University"></label>
+                                                    <input asp-for="University" class="form-control" />
+                                                        <span asp-validation-for="University" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="EnrollmentNumber"></label>
+                                                    <input asp-for="EnrollmentNumber" class="form-control" />
+                                                        <span asp-validation-for="EnrollmentNumber" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="ExamYear"></label>
+                                                    <input asp-for="ExamYear" type="number" class="form-control" />
+                                                        <span asp-validation-for="ExamYear" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-12">
+                                                    <label asp-for="Field"></label>
+                                                    <input asp-for="Field" class="form-control" />
+                                                        <span asp-validation-for="Field" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="Marks"></label>
+                                                    <input asp-for="Marks" type="number" class="form-control" />
+                                                        <span asp-validation-for="Marks" style="color:red; font-size:16px"></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+                                                    <label asp-for="Grade"></label>
+                                                    <input asp-for="Grade" class="form-control" />
+                                                        <span asp-validation-for="Grade" style="color:red; font-size:16px"></span>
+                                                </div>
+                                                   </div>
+
+
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                           
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="profile">
+                                <span class="wm-contact-title">Contact Info</span>
+                                <div class="wm-contact-service">
+                                    <ul class="row">
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-pin"></i></span>
+                                            <h5 class="wm-color">Address</h5>
+                                            <p>195 Cooks Mine Road Espanola, NM 87532</p>
+                                        </li>
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-phone"></i></span>
+                                            <h5 class="wm-color">Phone & Fax</h5>
+                                            <p>+1 505-753-5656 +1 505-753-4437</p>
+                                        </li>
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-letter"></i></span>
+                                            <h5 class="wm-color">E-mail</h5>
+                                            <p><a href="mailto:name@email.com">Info@university.com</a> <a href="mailto:name@email.com">support@university.com</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="contact-social-icon">
+                                    <li><a href="#"><i class="wm-color wmicon-social5"></i> Facebook</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-social4"></i> Twitter</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-social3"></i> Linkedin</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-vimeo"></i> Vimeo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--// Main Section \\-->
+
+</div>
+<!--// Main Content \\-->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

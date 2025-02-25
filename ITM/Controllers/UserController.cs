@@ -90,23 +90,6 @@ namespace ITM.Controllers
             }
             return View("Signup");
         }
-        [HttpGet]
-        public IActionResult Admission()
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Admission(Admission admission)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Admissions.Add(admission);
-                _context.SaveChanges();
-                TempData["SuccessMessage"] = "Your registration is complete. You can now log in and access your account.";
-                return RedirectToAction("Admission");
-            }
-            return View("Admission");
-        }
 
         public IActionResult Logout()
         {
@@ -145,6 +128,26 @@ namespace ITM.Controllers
             var facility = _context.Facilities.ToList();
             ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View(facility);
+        }
+
+        [HttpGet]
+        public IActionResult AdmissionForm()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AdmissionForm(Admission admission)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Admissions.Add(admission);
+                _context.SaveChanges();
+                TempData["SuccessMessage"] = "Your registration is complete. You can now log in and access your account.";
+                return RedirectToAction("AdmissionForm");
+
+            }
+            return View("AdmissionForm");
         }
 
     }

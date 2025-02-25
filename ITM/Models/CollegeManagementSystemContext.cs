@@ -31,8 +31,6 @@ public partial class CollegeManagementSystemContext : DbContext
 
     public virtual DbSet<MeritList> MeritLists { get; set; }
 
-    public virtual DbSet<PreviousExam> PreviousExams { get; set; }
-
     public virtual DbSet<Role> Roles { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
@@ -73,40 +71,44 @@ public partial class CollegeManagementSystemContext : DbContext
 
         modelBuilder.Entity<Admission>(entity =>
         {
-            entity.HasKey(e => e.StudentId).HasName("PK__Students__2A33069ADF9D5CDE");
+            entity.HasKey(e => e.Id).HasName("PK__Admissio__3214EC078A82B0F3");
 
-            entity.Property(e => e.StudentId).HasColumnName("student_id");
-            entity.Property(e => e.AdmissionFor)
+            entity.Property(e => e.EnrollmentNumber)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("Admission_for");
-            entity.Property(e => e.DateOfBirth).HasColumnName("date_of_birth");
+                .IsUnicode(false);
             entity.Property(e => e.FatherName)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("father_name");
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Field)
+                .HasMaxLength(100)
+                .IsUnicode(false);
             entity.Property(e => e.Gender)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+            entity.Property(e => e.Grade)
+                .HasMaxLength(20)
+                .IsUnicode(false);
             entity.Property(e => e.MotherName)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("mother_name");
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.Name)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("name");
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.PermanentAddress)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("Permanent_Address");
+                .HasMaxLength(500)
+                .IsUnicode(false);
             entity.Property(e => e.ResidentialAddress)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("Residential_Address");
+                .HasMaxLength(500)
+                .IsUnicode(false);
             entity.Property(e => e.SportsDetails)
                 .HasColumnType("text")
-                .HasColumnName("Sports_details");
+                .HasColumnName("Sports_Details");
+            entity.Property(e => e.Stream)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+            entity.Property(e => e.University)
+                .HasMaxLength(255)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Contact>(entity =>
@@ -254,34 +256,6 @@ public partial class CollegeManagementSystemContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("merit_name");
             entity.Property(e => e.MeritPer).HasColumnName("merit_per");
-        });
-
-        modelBuilder.Entity<PreviousExam>(entity =>
-        {
-            entity
-                .HasNoKey()
-                .ToTable("Previous_Exam");
-
-            entity.Property(e => e.Center)
-                .HasMaxLength(50)
-                .IsUnicode(false);
-            entity.Property(e => e.EnrollNumber)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("Enroll_Number");
-            entity.Property(e => e.Field)
-                .HasMaxLength(50)
-                .IsUnicode(false);
-            entity.Property(e => e.MarksSecured).HasColumnName("Marks_Secured");
-            entity.Property(e => e.OutOf).HasColumnName("Out_Of");
-            entity.Property(e => e.StudentId).HasColumnName("student_id");
-            entity.Property(e => e.University)
-                .HasMaxLength(50)
-                .IsUnicode(false);
-
-            entity.HasOne(d => d.Student).WithMany()
-                .HasForeignKey(d => d.StudentId)
-                .HasConstraintName("FK__Previous___stude__44FF419A");
         });
 
         modelBuilder.Entity<Role>(entity =>
