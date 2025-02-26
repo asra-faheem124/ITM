@@ -2,13 +2,8 @@
 @{
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
- @* <style>
-     span{
-     font-size: 20px;
-     }
- </style> *@
 <!--// Mini Header \\-->
-<div class="wm-mini-header">
+@* <div class="wm-mini-header">
     <span class="wm-blue-transparent"></span>
     <div class="container">
         <div class="row">
@@ -18,7 +13,7 @@
                 </div>
                 <div class="wm-breadcrumb">
                     <ul>
-                        <li><a href="index-2.html">Home</a></li>
+                        <li><a>Home</a></li>
                         <li>Admission</li>
                     </ul>
                 </div>
@@ -26,7 +21,7 @@
         </div>
     </div>
 </div>
-<!--// Mini Header \\-->
+ *@<!--// Mini Header \\-->
 <!--// Main Content \\-->
 <div class="wm-main-content">
 
@@ -39,6 +34,12 @@
 
                     <div class="wm-contact-tab">
 
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
 
                         <!-- Tab panes -->
                         <div class="tab-content">
@@ -47,109 +48,119 @@
                                     <div class="col-md-10">
                                         <div class="wm-contact-form d-flex justify-content-center">
                                             <span style="color:black">Start Your Journey with Us</span>
-                                            @if (TempData["SuccessMessage"] != null)
-                                            {
-                                                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                                    @TempData["SuccessMessage"]
-                                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                                </div>
-                                            }
+                                          
 
-                                            <form asp-action="AdmissionForm" method="post">
+
+                                            <form asp-controller="User" asp-action="AdmissionForm" method="post">
+                                                @Html.AntiForgeryToken()
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                                     <div class="row">
-                                                        
                                                 <div class="form-group col-lg-6">
-                                                    <label asp-for="Name"></label>
-                                                    <input asp-for="Name" class="form-control" />
-                                                    <span asp-validation-for="Name" style="color:red; font-size:16px"></span>
+                                                    <label asp-for="Name" ></label>
+                                                    <input asp-for="Name"type="text" class="form-control" />
+                                                     <span asp-validation-for="Name" style="color:red; font-size:16px"></span>
                                                 </div>
 
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="FatherName"></label>
                                                     <input asp-for="FatherName" class="form-control" />
-                                                        <span asp-validation-for="FatherName" style="color:red; font-size:16px"></span>
+                                                         <span asp-validation-for="FatherName" style="color:red; font-size:16px"></span>
                                                 </div>
 
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="MotherName"></label>
                                                         <input asp-for="MotherName" class="form-control" sstyle="background-color:white" />
-                                                    <span asp-validation-for="MotherName" style="color:red; font-size:16px"></span>
-                                                </div>
+                                                     <span asp-validation-for="MotherName" style="color:red; font-size:16px"></span>
+                                                 </div>
 
                                                 <div class="form-group col-lg-6 bg-white">
                                                     <label asp-for="DateOfBirth"></label>
                                                     <input asp-for="DateOfBirth" type="date" class="form-control" />
-                                                    <span asp-validation-for="DateOfBirth" style="color:red; font-size:16px"></span>
+                                                     <span asp-validation-for="DateOfBirth" style="color:red; font-size:16px"></span>
                                                 </div>
 
-                                                <div class="form-group col-lg-12">
+                                                <div class="form-group col-lg-6">
                                                     <label asp-for="Gender"></label>
                                                     <select asp-for="Gender" class="form-control">
                                                         <option value="">Select Gender</option>
                                                         <option value="Male">Male</option>
                                                         <option value="Female">Female</option>
                                                     </select>
-                                                    <span asp-validation-for="Gender" style="color:red; font-size:16px"></span>
+                                                     <span asp-validation-for="Gender" style="color:red; font-size:16px"></span>
                                                 </div>
 
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="ResidentialAddress"></label>
-                                                    <textarea asp-for="ResidentialAddress" class="form-control"></textarea>
-                                                        <span asp-validation-for="ResidentialAddress" style="color:red; font-size:16px"></span>
-                                                </div>
+                                                    <input asp-for="ResidentialAddress" class="form-control" />
+                                                         <span asp-validation-for="ResidentialAddress" style="color:red; font-size:16px"></span>
+                                                 </div>
 
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="PermanentAddress"></label>
-                                                    <textarea asp-for="PermanentAddress" class="form-control"></textarea>
-                                                        <span asp-validation-for="PermanentAddress" style="color:red; font-size:16px"></span>
-                                                </div>
+                                                    <input asp-for="PermanentAddress" class="form-control" />
+                                                         <span asp-validation-for="PermanentAddress" style="color:red; font-size:16px"></span>
+                                                 </div>
 
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="Stream"></label>
                                                     <input asp-for="Stream" class="form-control" />
-                                                        <span asp-validation-for="Stream" style="color:red; font-size:16px"></span>
-                                                </div>
+                                                         <span asp-validation-for="Stream" style="color:red; font-size:16px"></span>
+                                                 </div>
 
+                                                    <div class="form-group col-lg-12">
+                                                        <label asp-for="SportsDetails">Sports Deatils (if any)</label>
+                                                        <textarea asp-for="SportsDetails" class="form-control" ></textarea>
+                                                    </div>
+                                                    <h4 class="col-lg-12">Previous Exam Details</h4>
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="University"></label>
                                                     <input asp-for="University" class="form-control" />
-                                                        <span asp-validation-for="University" style="color:red; font-size:16px"></span>
+                                                       <span asp-validation-for="University" style="color:red; font-size:16px"></span>
                                                 </div>
 
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="EnrollmentNumber"></label>
                                                     <input asp-for="EnrollmentNumber" class="form-control" />
-                                                        <span asp-validation-for="EnrollmentNumber" style="color:red; font-size:16px"></span>
-                                                </div>
+                                                         <span asp-validation-for="EnrollmentNumber" style="color:red; font-size:16px"></span>
+                                                 </div>
 
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="ExamYear"></label>
                                                     <input asp-for="ExamYear" type="number" class="form-control" />
-                                                        <span asp-validation-for="ExamYear" style="color:red; font-size:16px"></span>
-                                                </div>
+                                                         <span asp-validation-for="ExamYear" style="color:red; font-size:16px"></span>
+                                                 </div>
 
-                                                <div class="form-group col-lg-12">
+                                                <div class="form-group col-lg-6">
                                                     <label asp-for="Field"></label>
                                                     <input asp-for="Field" class="form-control" />
-                                                        <span asp-validation-for="Field" style="color:red; font-size:16px"></span>
-                                                </div>
+                                                         <span asp-validation-for="Field" style="color:red; font-size:16px"></span>
+                                                 </div>
 
                                                 <div class="form-group col-lg-6">
                                                     <label asp-for="Marks"></label>
                                                     <input asp-for="Marks" type="number" class="form-control" />
-                                                        <span asp-validation-for="Marks" style="color:red; font-size:16px"></span>
+                                                         <span asp-validation-for="Marks" style="color:red; font-size:16px"></span>
                                                 </div>
 
-                                                <div class="form-group col-lg-6">
-                                                    <label asp-for="Grade"></label>
-                                                    <input asp-for="Grade" class="form-control" />
+                                                   @*  <div class="form-group col-lg-6">
+                                                        <label asp-for="Grade"></label>
+                                                        <input asp-for="Grade" type="text" class="form-control" />
+                                                         <span asp-validation-for="Grade" style="color:red; font-size:16px"></span>
+                                                    </div> *@
+
+                                                    <div class="form-group col-lg-6">
+                                                        <label asp-for="Grade">Class</label>
+                                                        <select asp-for="Grade" class="form-control">
+                                                            <option value="">Select Class</option>
+                                                            <option value="First Class">First Class</option>
+                                                            <option value="Second Class">Second Class</option>
+                                                            <option value="Third Class">Third Class</option>
+                                                            <option value="Fail Class">Fail</option>
+                                                        </select>
                                                         <span asp-validation-for="Grade" style="color:red; font-size:16px"></span>
-                                                </div>
+                                                    </div> 
                                                    </div>
-
-
-                                                <button type="submit" class="btn btn-primary">Submit</button>
-                                           
+                                                <input type="submit" class="btn btn-primary" value="Submit">
                                             </form>
                                         </div>
                                     </div>
@@ -196,8 +207,4 @@
 
 </div>
 <!--// Main Content \\-->
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
+

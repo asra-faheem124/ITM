@@ -3,11 +3,11 @@
 @{
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
-<div class="container flex-container col-md-offset-4" style="height: 100vh;">
+<div class="container flex-container " style="height: 100vh; overflow:hidden">
     <div class="row">
         <div class="text-danger">@ViewBag.Message</div>
         <div class="col-lg-6">
-<div class="wm-modallogin-form wm-login-popup">
+            <div class="wm-modallogin-form wm-login-popup" style=" overflow:hidden">
     <span class="wm-color">Login to Your Account</span>
                 <form method="post" asp-action="Login">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>

@@ -56,7 +56,7 @@ namespace ITM.Controllers
                 HttpContext.Session.SetString("UserID", userdata.UserId.ToString());
                 HttpContext.Session.SetString("UserName", userdata.Username);
                 HttpContext.Session.SetString("UserEmail", userdata.Useremail);
-                HttpContext.Session.SetString("UserEmail", userdata.UserRoleId.ToString());
+                HttpContext.Session.SetString("User_Role_Id", userdata.UserRoleId.ToString());
                 if (userdata.UserRoleId == 2)
                 {
                     return RedirectToAction("Index");
@@ -137,13 +137,15 @@ namespace ITM.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult AdmissionForm(Admission admission)
         {
+            Console.WriteLine("AdmissionForm method not hit");
             if (ModelState.IsValid)
             {
                 _context.Admissions.Add(admission);
                 _context.SaveChanges();
-                TempData["SuccessMessage"] = "Your registration is complete. You can now log in and access your account.";
+                TempData["SuccessMessage"] = $"Your registration is complete. Your Registration Number is {admission.Id}. Use this to check your status.";
                 return RedirectToAction("AdmissionForm");
 
             }

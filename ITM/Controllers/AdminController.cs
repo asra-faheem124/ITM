@@ -1,14 +1,17 @@
 ﻿using ITM.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ITM.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         CollegeManagementSystemContext _context = new CollegeManagementSystemContext();
         public IActionResult Index()
         {
+
             return View();
         }
 
@@ -89,7 +92,7 @@ namespace ITM.Controllers
                 _context.Update(facility);
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = "Facility updated successfully.";
-                return RedirectToAction("Facility_Form");
+                return RedirectToAction("Facility_Edit");
             }
 
             return View("Facility_Edit");

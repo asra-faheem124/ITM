@@ -71,8 +71,14 @@ public partial class CollegeManagementSystemContext : DbContext
 
         modelBuilder.Entity<Admission>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Admissio__3214EC078A82B0F3");
+            entity.HasKey(e => e.Id).HasName("PK__Admissio__3214EC0732875C2A");
 
+            entity.ToTable("Admission");
+
+            entity.Property(e => e.AdmissionStatus)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasDefaultValue("Pending");
             entity.Property(e => e.EnrollmentNumber)
                 .HasMaxLength(50)
                 .IsUnicode(false);
