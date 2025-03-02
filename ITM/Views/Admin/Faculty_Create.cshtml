@@ -48,14 +48,12 @@
                                         <span asp-validation-for="FacultyImg" class="text-danger"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label asp-for="Department">Department</label>
-                                        <input asp-for="Department" type="text" class="form-control" placeholder="Department" />
-                                        <span asp-validation-for="Department" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label asp-for="DepartmentId">Department Id</label>
-                                        <input asp-for="DepartmentId" type="number" class="form-control" placeholder="Department Id" />
+                                        <label asp-for="DepartmentId">Select Department</label>
+                                        <select asp-for="DepartmentId" asp-items="ViewBag.Departments" class="form-control">
+                                            <option value="">-- Select Department --</option>
+                                        </select>
                                         <span asp-validation-for="DepartmentId" class="text-danger"></span>
+
                                     </div>
                                     <div class="card-action">
                                         <input class="btn btn-success" type="submit" value="Submit">

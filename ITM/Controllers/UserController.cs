@@ -1,6 +1,7 @@
 ﻿using ITM.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace ITM.Controllers
 {
@@ -111,17 +112,18 @@ namespace ITM.Controllers
 
         public IActionResult Courses()
         {
-            var courses = _context.Courses.ToList();
+            var courses = _context.CourseItms.ToList();
             ViewBag.userName = HttpContext.Session.GetString("UserName");
             return View(courses);
         }
 
         public IActionResult Faculty()
         {
-            var faculty = _context.Faculties.ToList();
+            var faculties = _context.Faculties.Include(f => f.Department).ToList();
             ViewBag.userName = HttpContext.Session.GetString("UserName");
-            return View(faculty);
+            return View(faculties);
         }
+
 
         public IActionResult Facility()
         {
@@ -130,27 +132,46 @@ namespace ITM.Controllers
             return View(facility);
         }
 
-        [HttpGet]
         public IActionResult AdmissionForm()
         {
+            ViewBag.Courses = new SelectList(_context.CourseItms, "Courseid", "Coursename");
             return View();
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult AdmissionForm(Admission admission)
         {
-            Console.WriteLine("AdmissionForm method not hit");
-            if (ModelState.IsValid)
+            if (ModelState.IsValid == false)
             {
                 _context.Admissions.Add(admission);
                 _context.SaveChanges();
                 TempData["SuccessMessage"] = $"Your registration is complete. Your Registration Number is {admission.Id}. Use this to check your status.";
                 return RedirectToAction("AdmissionForm");
-
             }
+            ViewBag.Courses = new SelectList(_context.CourseItms, "Courseid", "Coursename", admission.AdmCourseId);
             return View("AdmissionForm");
         }
+
+        [HttpGet]
+        public IActionResult CheckStatus()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CheckStatus(int admissionId)
+        {
+            var admission = _context.Admissions.FirstOrDefault(a => a.Id == admissionId);
+
+            if (admission == null)
+            {
+                ViewBag.Message = "No record found for the provided registration number.";
+                return View();
+            }
+
+            return View("AdmissionDetails", admission);
+        }
+
 
     }
 }

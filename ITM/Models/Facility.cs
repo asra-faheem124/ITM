@@ -11,5 +11,5 @@ public partial class Facility
 
     public string FacilityDesc { get; set; } = null!;
 
-    public string FacilityImg { get; set; } = null!;
+    public string? FacilityImg { get; set; }
 }

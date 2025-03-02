@@ -19,7 +19,7 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                             }
-                            <form asp-controller="Admin" asp-action="Depart_Edit" method="post">
+                            <form asp-controller="Admin" asp-action="Depart_Edit" method="post" enctype="multipart/form-data">
                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                 <div class="col-md-6 col-lg-4">
                                     <input type="hidden" asp-for="DepartmentId" />
@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label asp-for="DepartmentImg">Image</label>
-                                        <input asp-for="DepartmentImg" type="text" class="form-control" placeholder="Image" />
+                                        <input asp-for="DepartmentImg" type="file" class="form-control" placeholder="Image" />
                                         <span asp-validation-for="DepartmentImg" class="text-danger"></span>
                                     </div>
                                     <div class="form-group">

@@ -15,7 +15,7 @@ public partial class Department
 
     public string? DepartmentTeacher { get; set; }
 
-    public virtual ICollection<Course> Courses { get; set; } = new List<Course>();
+    public virtual ICollection<CourseItm> CourseItms { get; set; } = new List<CourseItm>();
 
     public virtual ICollection<Faculty> Faculties { get; set; } = new List<Faculty>();
 }

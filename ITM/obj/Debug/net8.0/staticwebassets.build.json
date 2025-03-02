@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Pm1tREKKfv0ak078tHJOvLML0u121If1xe6eLWmbNmo=",
+  "Hash": "1/RjNuh5sYVKh4nPaHWAAdH8QHyCBxLIVA70DbtaeyQ=",
   "Source": "ITM",
   "BasePath": "_content/ITM",
   "Mode": "Default",
@@ -1366,6 +1366,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\extra-images\\404-image.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\80c169da-cd2a-4c95-9d8f-17c4a48743ca_rb_110036.png",
+      "SourceId": "ITM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\",
+      "BasePath": "_content/ITM",
+      "RelativePath": "assets/extra-images/80c169da-cd2a-4c95-9d8f-17c4a48743ca_rb_110036.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\extra-images\\80c169da-cd2a-4c95-9d8f-17c4a48743ca_rb_110036.png"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\admin-blog.jpg",
       "SourceId": "ITM",
       "SourceType": "Discovered",
@@ -1478,6 +1497,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\extra-images\\author-blog-7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\b0e1c256-5ea7-4d26-875f-87ad8693d391_rb_110036.png",
+      "SourceId": "ITM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\",
+      "BasePath": "_content/ITM",
+      "RelativePath": "assets/extra-images/b0e1c256-5ea7-4d26-875f-87ad8693d391_rb_110036.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\extra-images\\b0e1c256-5ea7-4d26-875f-87ad8693d391_rb_110036.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\ITM\\ITM\\wwwroot\\assets\\extra-images\\banner-view1-1.jpg",

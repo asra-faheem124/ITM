@@ -15,11 +15,9 @@ public partial class Faculty
 
     public string? Qualification { get; set; }
 
-    public int? DepartmentId { get; set; }
-
     public string? FacultyImg { get; set; }
 
-    public string? Department { get; set; }
+    public int DepartmentId { get; set; }
 
-    public virtual Department? DepartmentNavigation { get; set; }
+    public virtual Department Department { get; set; } = null!;
 }

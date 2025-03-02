@@ -1,4 +1,4 @@
-﻿@model ITM.Models.Faculty
+﻿@model ITM.Models.CourseItm
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
@@ -15,52 +15,57 @@
 
                             <h3>Are you sure you want to delete this?</h3>
                             <div>
-                                <h4>Faculty</h4>
+                                <h4>Facility</h4>
                                 <hr />
                                 <dl class="row">
                                     <dt class="col-sm-2">
-                                        @Html.DisplayNameFor(model => model.FacultyName)
+                                        @Html.DisplayNameFor(model => model.Coursename)
                                     </dt>
                                     <dd class="col-sm-10">
-                                        @Html.DisplayFor(model => model.FacultyName)
+                                        @Html.DisplayFor(model => model.Coursename)
                                     </dd>
                                     <dt class="col-sm-2">
-                                        @Html.DisplayNameFor(model => model.Designation)
+                                        @Html.DisplayNameFor(model => model.Courseimage)
                                     </dt>
                                     <dd class="col-sm-10">
-                                        @Html.DisplayFor(model => model.Designation)
+                                        @Html.DisplayFor(model => model.Courseimage)
                                     </dd>
                                     <dt class="col-sm-2">
-                                        @Html.DisplayNameFor(model => model.Experience)
+                                        @Html.DisplayNameFor(model => model.Courseduration)
                                     </dt>
                                     <dd class="col-sm-10">
-                                        @Html.DisplayFor(model => model.Experience)
+                                        @Html.DisplayFor(model => model.Courseduration)
                                     </dd>
                                     <dt class="col-sm-2">
-                                        @Html.DisplayNameFor(model => model.Qualification)
+                                        @Html.DisplayNameFor(model => model.Coursefees)
                                     </dt>
                                     <dd class="col-sm-10">
-                                        @Html.DisplayFor(model => model.Qualification)
+                                        @Html.DisplayFor(model => model.Coursefees)
                                     </dd>
                                     <dt class="col-sm-2">
-                                        @Html.DisplayNameFor(model => model.Department)
+                                        @Html.DisplayNameFor(model => model.Coursedesc)
                                     </dt>
                                     <dd class="col-sm-10">
-                                        @Html.DisplayFor(model => model.Department.DepartmentName)
+                                        @Html.DisplayFor(model => model.Coursedesc)
                                     </dd>
                                     <dt class="col-sm-2">
-                                        @Html.DisplayNameFor(model => model.FacultyImg)
+                                        @Html.DisplayNameFor(model => model.Courseteacher)
                                     </dt>
                                     <dd class="col-sm-10">
-                                        @Html.DisplayFor(model => model.FacultyImg)
+                                        @Html.DisplayFor(model => model.Courseteacher)
                                     </dd>
-                                   
+                                    <dt class="col-sm-2">
+                                        @Html.DisplayNameFor(model => model.CourseDepart)
+                                    </dt>
+                                    <dd class="col-sm-10">
+                                        @Html.DisplayFor(model => model.CourseDepart.DepartmentName)
+                                    </dd>
                                 </dl>
 
-                                <form asp-action="Faculty_Delete">
-                                    <input type="hidden" asp-for="FacultyId" />
+                                <form asp-action="Course_Delete">
+                                    <input type="hidden" asp-for="Courseid" />
                                     <input type="submit" value="Delete" class="btn btn-danger" />
-                                    <a asp-action="Faculty">Back to List</a>
+                                    <a asp-action="Courses">Back to List</a>
                                 </form>
                             </div>
                         </div>

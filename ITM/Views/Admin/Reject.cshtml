@@ -1,0 +1,30 @@
+﻿@model ITM.Models.Admission
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container" style="margin-top:80px;">
+    <div class="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+
+                    <div class="card-body">
+                        <div class="row">
+                            <h2>Reject Admission #@Model.Id</h2>
+                            <p>Are you sure you want to reject the admission for @Model.Name?</p>
+
+                            <form asp-action="Reject" method="post">
+                                <input asp-for="Id" type="hidden" />
+                                <button type="submit" class="btn btn-danger">Yes, Reject</button>
+                                <a asp-action="Admission" class="btn btn-secondary">Cancel</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

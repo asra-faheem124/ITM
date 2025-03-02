@@ -8,7 +8,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <div class="card-title">Add Course</div>
+                        <div class="card-title">Edit Course</div>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -19,9 +19,10 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                             }
-                            <form asp-controller="Admin" asp-action="Course_Create" method="post" enctype="multipart/form-data">
+                            <form asp-controller="Admin" asp-action="Course_Edit" method="post">
                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                 <div class="col-md-6 col-lg-4">
+                                    <input type="hidden" asp-for="Courseid" />
                                     <div class="form-group">
                                         <label asp-for="Coursename">Name</label>
                                         <input asp-for="Coursename" type="text" class="form-control" placeholder="Name" />
@@ -53,14 +54,12 @@
                                         <span asp-validation-for="Courseteacher" class="text-danger"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label asp-for="CourseDepartId">Select Department</label>
-                                        <select asp-for="CourseDepartId" asp-items="ViewBag.Departments" class="form-control">
+                                        <label asp-for="CourseDepartId" class="control-label">Department</label>
+                                        <select asp-for="CourseDepartId" class="form-control" asp-items="ViewBag.Departments">
                                             <option value="">-- Select Department --</option>
                                         </select>
                                         <span asp-validation-for="CourseDepartId" class="text-danger"></span>
-
                                     </div>
-                              
                                     <div class="card-action">
                                         <input class="btn btn-success" type="submit" value="Submit">
                                         <a asp-action="Courses" class="btn btn-primary">Back to List</a>
@@ -74,3 +73,4 @@
         </div>
     </div>
 </div>
+

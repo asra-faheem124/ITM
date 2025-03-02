@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ITM.Models.Course>
+﻿@model IEnumerable<ITM.Models.CourseItm>
 
 @{
     Layout = "~/Views/Shared/_UserLayout.cshtml";
@@ -14,8 +14,8 @@
                 </div>
                 <div class="wm-breadcrumb">
                     <ul>
-                        <li><a href="index-2.html">Home</a></li>
-                        <li><a href="index-2.html">Academics</a></li>
+                        <li><a asp-controller="User" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="User" asp-action="Courses">Academics</a></li>
                         <li>Courses</li>
                     </ul>
                 </div>
@@ -39,15 +39,15 @@
                                 <li class="col-md-12">
                                     <div class="wm-courses-popular-wrap">
                                         <figure>
-                                            <img src="~/assets/extra-images/@item.CourseImg" alt="">
-                                            <h6 class="text-center">@item.CourseTeacher</h6>
+                                            <img src="~/assets/extra-images/@item.Courseimage" alt="">
+                                            <h6 class="text-center">@item.Courseteacher</h6>
                                         </figure>
                                         <div class="wm-popular-courses-text">
-                                            <h6>@item.CourseName</h6>
-                                            <p>@item.CourseDesc</p>
-                                            <div class="wm-courses-price"> <span>@item.CourseFees</span> </div>
+                                            <h6>@item.Coursename</h6>
+                                            <p>@item.Coursedesc</p>
+                                            <div class="wm-courses-price"> $<span>@item.Coursefees</span> </div>
                                             <ul>
-                                                <li><a href="#" class="wm-color"><i class="wmicon-time2"></i>Duration: @item.CourseDuration</a></li>
+                                                <li><a href="#" class="wm-color"><i class="wmicon-time2"></i>Duration: @item.Courseduration</a> years</li>
                                             </ul>
                                         </div>
                                     </div>

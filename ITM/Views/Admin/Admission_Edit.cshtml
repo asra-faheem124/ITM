@@ -1,0 +1,47 @@
+﻿@model ITM.Models.Admission
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container" style="margin-top:80px;">
+    <div class="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Edit Admission</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            @if (TempData["SuccessMessage"] != null)
+                            {
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    @TempData["SuccessMessage"]
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            }
+                            <form asp-controller="Admin" asp-action="Admission_Edit" method="post">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="col-md-6 col-lg-4">
+                                    <input type="hidden" asp-for="Id" />
+                                    <div class="form-group">
+                                        <label>Admission Status:</label>
+                                        <select asp-for="AdmissionStatus" class="form-control">
+                                            <option value="Pending">Pending</option>
+                                            <option value="Approved">Approved</option>
+                                            <option value="Rejected">Rejected</option>
+                                        </select>
+                                    </div>
+                                    <div class="card-action">
+                                        <input class="btn btn-success" type="submit" value="Submit">
+                                        <a asp-action="Admission" class="btn btn-primary">Back to List</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

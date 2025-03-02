@@ -1,0 +1,88 @@
+﻿@model IEnumerable<ITM.Models.Admission>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12" style="margin-top: 80px;">
+    <div class="card">
+        <div class="card-header">
+            <div class="d-flex align-items-center">
+                <h4 class="card-title">Admissions</h4>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+                <table id="add-row"
+                       class="display table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Father Name</th>
+                            <th>Mother Name</th>
+                            <th>Email</th>
+                            <th>Date of Birth</th>
+                            <th>Gender</th>
+                            <th>Residential Address</th>
+                            <th>Permanent Address</th>
+                            <th>Course</th>
+                            <th>Sports Details</th>
+                            <th>University</th>
+                            <th>Enrollemnt Number</th>
+                            <th>Exam Year</th>
+                            <th>Field</th>
+                            <th>Marks</th>
+                            <th>Grade</th>
+                            <th>Admission Status</th>
+                            <th style="width: 10%; text-align:center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.FatherName</td>
+                                <td>@item.MotherName</td>
+                                <td>@item.Email</td>
+                                <td>@item.DateOfBirth</td>
+                                <td>@item.Gender</td>
+                                <td>@item.ResidentialAddress</td>
+                                <td>@item.PermanentAddress</td>
+                                <td>@item.AdmCourse?.Coursename</td>
+                                <td>@item.SportsDetails</td>
+                                <td>@item.University</td>
+                                <td>@item.EnrollmentNumber</td>
+                                <td>@item.ExamYear</td>
+                                <td>@item.Field</td>
+                                <td>@item.Marks</td>
+                                <td>@item.Grade</td>
+                                <td>@item.AdmissionStatus</td>
+                                <td>
+                                    <div class="form-button-action d-flex">
+                                        <a asp-controller="Admin" asp-action="Approve" asp-route-id="@item.Id">
+                                            <button type="button" class="btn btn-link btn-success btn-lg" onclick="updateStatus(@item.Id, 'Approved')" data-original-title="Edit Task">
+                                                <i class="fa fa-check"></i>
+                                            </button>
+                                        </a>
+                                        <a asp-controller="Admin" asp-action="Reject" asp-route-id="@item.Id">
+                                            <button type="button" class="btn btn-link btn-danger btn-lg" onclick="updateStatus(@item.Id, 'Rejected')" data-original-title="Edit Task">
+                                                <i class="fa fa-trash"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -3,7 +3,7 @@
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 <!--// Mini Header \\-->
-@* <div class="wm-mini-header">
+<div class="wm-mini-header">
     <span class="wm-blue-transparent"></span>
     <div class="container">
         <div class="row">
@@ -13,15 +13,15 @@
                 </div>
                 <div class="wm-breadcrumb">
                     <ul>
-                        <li><a>Home</a></li>
-                        <li>Admission</li>
+                        <li><a asp-controller="User" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="User" asp-action="AdmissionForm">Admission</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
- *@<!--// Mini Header \\-->
+<!--// Mini Header \\-->
 <!--// Main Content \\-->
 <div class="wm-main-content">
 
@@ -52,7 +52,6 @@
 
 
                                             <form asp-controller="User" asp-action="AdmissionForm" method="post">
-                                                @Html.AntiForgeryToken()
                                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                                     <div class="row">
                                                 <div class="form-group col-lg-6">
@@ -71,6 +70,12 @@
                                                     <label asp-for="MotherName"></label>
                                                         <input asp-for="MotherName" class="form-control" sstyle="background-color:white" />
                                                      <span asp-validation-for="MotherName" style="color:red; font-size:16px"></span>
+                                                 </div>
+
+                                                 <div class="form-group col-lg-6">
+                                                    <label asp-for="Email"></label>
+                                                        <input asp-for="Email" class="form-control" sstyle="background-color:white" />
+                                                     <span asp-validation-for="Email" style="color:red; font-size:16px"></span>
                                                  </div>
 
                                                 <div class="form-group col-lg-6 bg-white">
@@ -101,11 +106,14 @@
                                                          <span asp-validation-for="PermanentAddress" style="color:red; font-size:16px"></span>
                                                  </div>
 
-                                                <div class="form-group col-lg-6">
-                                                    <label asp-for="Stream"></label>
-                                                    <input asp-for="Stream" class="form-control" />
-                                                         <span asp-validation-for="Stream" style="color:red; font-size:16px"></span>
-                                                 </div>
+                                                    <div class="form-group">
+                                                        <label asp-for="AdmCourseId">Select Course</label>
+                                                        <select asp-for="AdmCourseId" asp-items="ViewBag.Courses" class="form-control">
+                                                            <option value="">-- Select Course --</option>
+                                                        </select>
+                                                        <span asp-validation-for="AdmCourseId" class="text-danger"></span>
+
+                                                    </div>
 
                                                     <div class="form-group col-lg-12">
                                                         <label asp-for="SportsDetails">Sports Deatils (if any)</label>
@@ -130,24 +138,25 @@
                                                          <span asp-validation-for="ExamYear" style="color:red; font-size:16px"></span>
                                                  </div>
 
-                                                <div class="form-group col-lg-6">
-                                                    <label asp-for="Field"></label>
-                                                    <input asp-for="Field" class="form-control" />
-                                                         <span asp-validation-for="Field" style="color:red; font-size:16px"></span>
-                                                 </div>
+                                                    <div class="form-group col-lg-6">
+                                                        <label asp-for="Field">Field</label>
+                                                        <select asp-for="Field" class="form-control">
+                                                            <option value="">Select Field</option>
+                                                            <option value="Pre-Medical">Pre-Medical</option>
+                                                            <option value="Pre-Engineering">Pre-Engineering</option>
+                                                            <option value="Computer Science">Computer Science</option>
+                                                            <option value="Commerce">Commerce</option>
+                                                            <option value="Arts">Arts</option>
+                                                            <option value="Others">Others</option>
+                                                        </select>
+                                                        <span asp-validation-for="Grade" style="color:red; font-size:16px"></span>
+                                                    </div>
 
-                                                <div class="form-group col-lg-6">
+                                                    <div class="form-group col-lg-6">
                                                     <label asp-for="Marks"></label>
                                                     <input asp-for="Marks" type="number" class="form-control" />
                                                          <span asp-validation-for="Marks" style="color:red; font-size:16px"></span>
                                                 </div>
-
-                                                   @*  <div class="form-group col-lg-6">
-                                                        <label asp-for="Grade"></label>
-                                                        <input asp-for="Grade" type="text" class="form-control" />
-                                                         <span asp-validation-for="Grade" style="color:red; font-size:16px"></span>
-                                                    </div> *@
-
                                                     <div class="form-group col-lg-6">
                                                         <label asp-for="Grade">Class</label>
                                                         <select asp-for="Grade" class="form-control">
@@ -161,8 +170,10 @@
                                                     </div> 
                                                    </div>
                                                 <input type="submit" class="btn btn-primary" value="Submit">
+                                                <a asp-controller="User" asp-action="CheckStatus" class="btn btn-primary mt-1">Check Admission Status</a>
                                             </form>
-                                        </div>
+@*                                             <a href="Admission Form.pdf" download="" class="btn btn-primary mt-1">Download Form</a>
+ *@                                        </div>
                                     </div>
                                 </div>
                             </div>

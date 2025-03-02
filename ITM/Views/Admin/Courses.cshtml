@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ITM.Models.Course>
+﻿@model IEnumerable<ITM.Models.CourseItm>
 
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -29,12 +29,13 @@
                        class="display table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>Course Name</th>
-                            <th>Course Image</th>
-                            <th>Course Duration</th>
-                            <th>Course Fees</th>
-                            <th>Course Description</th>
-                            <th>Course Teacher</th>
+                            <th>Name</th>
+                            <th>Image</th>
+                            <th>Duration</th>
+                            <th>Fees</th>
+                            <th>Description</th>
+                            <th>Teacher</th>
+                            <th>Department</th>
                             <th style="width: 10%">Action</th>
                         </tr>
                     </thead>
@@ -42,20 +43,23 @@
                         @foreach (var item in Model)
                         {
                             <tr>
-                                <td>@item.CourseName</td>
-                                <td>@item.CourseImg</td>
-                                <td>@item.CourseDuration</td>
-                                <td>@item.CourseFees</td>
-                                <td>@item.CourseDesc</td>
-                                <td>@item.CourseTeacher</td>
+                                <td>@item.Coursename</td>
+                                <td>
+                                    <img src="~/assets/extra-images/@item.Courseimage" style="width: 100px; height: 100px; object-fit: cover; border-radius: 5px;" />
+                                </td>
+                                <td>@item.Courseduration years</td>
+                                <td>$ @item.Coursefees</td>
+                                <td>@item.Coursedesc</td>
+                                <td>@item.Courseteacher</td>
+                                <td>@item.CourseDepart?.DepartmentName</td>
                                 <td>
                                     <div class="form-button-action">
-                                        <a asp-controller="Admin" asp-action="Course_Edit" asp-route-id="@item.CourseId">
+                                        <a asp-controller="Admin" asp-action="Course_Edit" asp-route-id="@item.Courseid">
                                             <button type="button" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
                                                 <i class="fa fa-edit"></i>
                                             </button>
                                         </a>
-                                        <a asp-controller="Admin" asp-action="Course_Delete" asp-route-id="@item.CourseId">
+                                        <a asp-controller="Admin" asp-action="Course_Delete" asp-route-id="@item.Courseid">
                                             <button type="button" class="btn btn-link btn-danger" data-original-title="Remove">
                                                 <i class="fa fa-times"></i>
                                             </button>

@@ -19,7 +19,7 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                             }
-                            <form asp-controller="Admin" asp-action="Faculty_Edit" method="post">
+                            <form asp-controller="Admin" asp-action="Faculty_Edit" method="post" enctype="multipart/form-data">
                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                 <div class="col-md-6 col-lg-4">
                                     <input type="hidden" asp-for="FacultyId" />
@@ -45,19 +45,17 @@
                                     </div>
                                     <div class="form-group">
                                         <label asp-for="FacultyImg">Image</label>
-                                        <input asp-for="FacultyImg" type="text" class="form-control" placeholder="Image" />
+                                        <input asp-for="FacultyImg" type="file" class="form-control" placeholder="Image" />
                                         <span asp-validation-for="FacultyImg" class="text-danger"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label asp-for="Department">Department</label>
-                                        <input asp-for="Department" type="text" class="form-control" placeholder="Department" />
-                                        <span asp-validation-for="Department" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label asp-for="DepartmentId">Department Id</label>
-                                        <input asp-for="DepartmentId" type="number" class="form-control" placeholder="Department Id" />
+                                        <label asp-for="DepartmentId" class="control-label">Department</label>
+                                        <select asp-for="DepartmentId" class="form-control" asp-items="ViewBag.Departments">
+                                            <option value="">-- Select Department --</option>
+                                        </select>
                                         <span asp-validation-for="DepartmentId" class="text-danger"></span>
                                     </div>
+
                                     <div class="card-action">
                                         <input class="btn btn-success" type="submit" value="Submit">
                                         <a asp-action="Faculty" class="btn btn-primary">Back to List</a>

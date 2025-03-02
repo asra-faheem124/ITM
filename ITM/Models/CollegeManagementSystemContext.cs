@@ -21,7 +21,7 @@ public partial class CollegeManagementSystemContext : DbContext
 
     public virtual DbSet<Contact> Contacts { get; set; }
 
-    public virtual DbSet<Course> Courses { get; set; }
+    public virtual DbSet<CourseItm> CourseItms { get; set; }
 
     public virtual DbSet<Department> Departments { get; set; }
 
@@ -75,30 +75,40 @@ public partial class CollegeManagementSystemContext : DbContext
 
             entity.ToTable("Admission");
 
+            entity.Property(e => e.AdmCourseId).HasColumnName("adm_course_id");
             entity.Property(e => e.AdmissionStatus)
                 .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasDefaultValue("Pending");
-            entity.Property(e => e.EnrollmentNumber)
-                .HasMaxLength(50)
-                .IsUnicode(false);
-            entity.Property(e => e.FatherName)
-                .HasMaxLength(255)
-                .IsUnicode(false);
-            entity.Property(e => e.Field)
+            entity.Property(e => e.DateOfBirth)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+            entity.Property(e => e.Email)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.EnrollmentNumber)
+                .HasMaxLength(500)
+                .IsUnicode(false);
+            entity.Property(e => e.ExamYear)
+                .HasMaxLength(500)
+                .IsUnicode(false);
+            entity.Property(e => e.FatherName)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+            entity.Property(e => e.Field)
+                .HasMaxLength(500)
+                .IsUnicode(false);
             entity.Property(e => e.Gender)
-                .HasMaxLength(50)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.Grade)
-                .HasMaxLength(20)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.MotherName)
-                .HasMaxLength(255)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.Name)
-                .HasMaxLength(255)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.PermanentAddress)
                 .HasMaxLength(500)
@@ -109,12 +119,13 @@ public partial class CollegeManagementSystemContext : DbContext
             entity.Property(e => e.SportsDetails)
                 .HasColumnType("text")
                 .HasColumnName("Sports_Details");
-            entity.Property(e => e.Stream)
-                .HasMaxLength(100)
-                .IsUnicode(false);
             entity.Property(e => e.University)
                 .HasMaxLength(255)
                 .IsUnicode(false);
+
+            entity.HasOne(d => d.AdmCourse).WithMany(p => p.Admissions)
+                .HasForeignKey(d => d.AdmCourseId)
+                .HasConstraintName("FK__Admission__adm_c__607251E5");
         });
 
         modelBuilder.Entity<Contact>(entity =>
@@ -134,43 +145,36 @@ public partial class CollegeManagementSystemContext : DbContext
                 .IsUnicode(false);
         });
 
-        modelBuilder.Entity<Course>(entity =>
+        modelBuilder.Entity<CourseItm>(entity =>
         {
-            entity.HasKey(e => e.CourseId).HasName("PK__Course__8F1EF7AE32D11F48");
+            entity.HasKey(e => e.Courseid).HasName("PK__Course_I__2AAB4BC9A263B660");
 
-            entity.ToTable("Course");
+            entity.ToTable("Course_ITM");
 
-            entity.Property(e => e.CourseId).HasColumnName("course_id");
-            entity.Property(e => e.CourseDesc)
+            entity.Property(e => e.Courseid).HasColumnName("courseid");
+            entity.Property(e => e.CourseDepartId).HasColumnName("course_depart_id");
+            entity.Property(e => e.Coursedesc)
                 .HasMaxLength(500)
                 .IsUnicode(false)
-                .HasColumnName("course_desc");
-            entity.Property(e => e.CourseDuration)
+                .HasColumnName("coursedesc");
+            entity.Property(e => e.Courseduration).HasColumnName("courseduration");
+            entity.Property(e => e.Coursefees).HasColumnName("coursefees");
+            entity.Property(e => e.Courseimage)
                 .HasMaxLength(100)
                 .IsUnicode(false)
-                .HasColumnName("course_duration");
-            entity.Property(e => e.CourseFees)
+                .HasColumnName("courseimage");
+            entity.Property(e => e.Coursename)
                 .HasMaxLength(100)
                 .IsUnicode(false)
-                .HasColumnName("course_fees");
-            entity.Property(e => e.CourseImg)
+                .HasColumnName("coursename");
+            entity.Property(e => e.Courseteacher)
                 .HasMaxLength(100)
                 .IsUnicode(false)
-                .HasColumnName("course_img");
-            entity.Property(e => e.CourseName)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("course_name");
-            entity.Property(e => e.CourseTeacher)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("course_teacher");
-            entity.Property(e => e.DepartmentId).HasColumnName("department_id");
+                .HasColumnName("courseteacher");
 
-            entity.HasOne(d => d.Department).WithMany(p => p.Courses)
-                .HasForeignKey(d => d.DepartmentId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Course__departme__5CD6CB2B");
+            entity.HasOne(d => d.CourseDepart).WithMany(p => p.CourseItms)
+                .HasForeignKey(d => d.CourseDepartId)
+                .HasConstraintName("FK__Course_IT__cours__4F47C5E3");
         });
 
         modelBuilder.Entity<Department>(entity =>
@@ -223,9 +227,6 @@ public partial class CollegeManagementSystemContext : DbContext
             entity.ToTable("Faculty");
 
             entity.Property(e => e.FacultyId).HasColumnName("faculty_id");
-            entity.Property(e => e.Department)
-                .HasMaxLength(255)
-                .IsUnicode(false);
             entity.Property(e => e.DepartmentId).HasColumnName("department_id");
             entity.Property(e => e.Designation)
                 .HasMaxLength(50)
@@ -245,9 +246,10 @@ public partial class CollegeManagementSystemContext : DbContext
                 .HasMaxLength(255)
                 .IsUnicode(false);
 
-            entity.HasOne(d => d.DepartmentNavigation).WithMany(p => p.Faculties)
+            entity.HasOne(d => d.Department).WithMany(p => p.Faculties)
                 .HasForeignKey(d => d.DepartmentId)
-                .HasConstraintName("FK__Faculty__departm__4CA06362");
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Faculty_Department");
         });
 
         modelBuilder.Entity<MeritList>(entity =>

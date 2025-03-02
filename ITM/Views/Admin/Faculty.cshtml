@@ -47,9 +47,11 @@
                                 <td>@item.Designation</td>
                                 <td>@item.Experience</td>
                                 <td>@item.Qualification</td>
-                                <td>@item.FacultyImg</td>
-                                <td>@item.Department</td>
-                                  <td>
+                                <td>
+                                    <img src="~/assets/extra-images/@item.FacultyImg" style="width: 100px; height: 100px; object-fit: cover; border-radius: 5px;"/>
+                                </td>
+                                <td>@item.Department?.DepartmentName</td>
+                                <td>
                             <div class="form-button-action">
                             <a asp-controller="Admin" asp-action="Faculty_Edit" asp-route-id="@item.FacultyId">
                             <button type="button" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
@@ -65,6 +67,7 @@
                             </td>
                             </tr>
                         }
+
                     </tbody>
                 </table>
             </div>

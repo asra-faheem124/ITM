@@ -26,9 +26,9 @@
 				</div>
 				<div class="wm-breadcrumb">
 					<ul>
-						<li><a href="index-2.html">Home</a></li>
-						<li><a href="#">Pages</a></li>
-						<li>Our Faculties</li>
+						<li><a asp-controller="User" asp-action="Index">Home</a></li>
+						<li><a>About</a></li>
+						<li asp-controller="User" asp-action="Faculty">Our Faculties</li>
 					</ul>
 				</div>
 			</div>
@@ -72,7 +72,8 @@
 					<div class="wm-our-professors ">
 					@foreach (var item in Model)
 					{
-						string facultyClass = departmentClassMapping.ContainsKey(item.Department) ? departmentClassMapping[item.Department] : "";
+						string departmentName = item.Department?.DepartmentName ?? "Unknown";
+						string facultyClass = departmentClassMapping.ContainsKey(departmentName) ? departmentClassMapping[departmentName] : "";
 						<ul class="row">
 							<li class="col-md-4 @facultyClass">
 								<figure>
@@ -85,7 +86,7 @@
 										<a class="wmicon-social4" href="#"></a>
 										<a class="wmicon-logo" href="#"></a>
 									</div>
-									<span>@item.Department DEPARTMENT</span>
+									<span>@departmentName DEPARTMENT</span> 
 									<p>@item.Qualification</p>
 									<p>@item.Experience</p>
 								</div>

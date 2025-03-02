@@ -1,0 +1,90 @@
+﻿@model ITM.Models.Admission
+@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+<!--// Main Content \\-->
+<div class="wm-main-content">
+
+    <!--// Main Section \\-->
+    <div class="wm-main-section wm-contact-full wm-contact-full-inner">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="wm-contact-tab">
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="home">
+                                <div class="row flex-container col-md-offset-2">
+                                    <div class="col-md-10">
+                                        <div class="wm-contact-form d-flex justify-content-center">
+                                            <span style="color:black">Admission Status</span>
+                                            <p><strong>Registration Number:</strong> @Model.Id</p>
+                                            <p><strong>Name:</strong> @Model.Name</p>
+                                            <p><strong>Status:</strong> @Model.AdmissionStatus</p>
+
+                                            @if (Model.AdmissionStatus == "Approved")
+                                            {
+                                                <h3>Course Details</h3>
+                                                <p><strong>Course Name:</strong> @Model.AdmCourse?.Coursename</p>
+                                                <p><strong>Start Date:</strong> 1st August 2025</p>
+                                                <p><strong>Class Timings:</strong> Monday to Friday, 09:00 AM - 12:00 PM</p>
+                                            }
+                                            else if (Model.AdmissionStatus == "Rejected")
+                                            {
+                                                <p>Your admission has been rejected.</p>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="profile">
+                                <span class="wm-contact-title">Contact Info</span>
+                                <div class="wm-contact-service">
+                                    <ul class="row">
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-pin"></i></span>
+                                            <h5 class="wm-color">Address</h5>
+                                            <p>195 Cooks Mine Road Espanola, NM 87532</p>
+                                        </li>
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-phone"></i></span>
+                                            <h5 class="wm-color">Phone & Fax</h5>
+                                            <p>+1 505-753-5656 +1 505-753-4437</p>
+                                        </li>
+                                        <li class="col-md-4">
+                                            <span class="wm-service-icon"><i class="wmicon-letter"></i></span>
+                                            <h5 class="wm-color">E-mail</h5>
+                                            <p><a href="mailto:name@email.com">Info@university.com</a> <a href="mailto:name@email.com">support@university.com</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="contact-social-icon">
+                                    <li><a href="#"><i class="wm-color wmicon-social5"></i> Facebook</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-social4"></i> Twitter</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-social3"></i> Linkedin</a></li>
+                                    <li><a href="#"><i class="wm-color wmicon-vimeo"></i> Vimeo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--// Main Section \\-->
+
+</div>
+<!--// Main Content \\-->
